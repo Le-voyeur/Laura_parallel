@@ -114,7 +114,6 @@ class LauSPlot
 class LauScfMap
 class LauSigmaRes
 class LauSigmoidPdf
-class LauSimFitMaster
 class LauSimpleFitModel
 class LauString
 class LauSumPdf
@@ -230,7 +229,6 @@ header LauSPlot.hh
 header LauScfMap.hh
 header LauSigmaRes.hh
 header LauSigmoidPdf.hh
-header LauSimFitMaster.hh
 header LauSimpleFitModel.hh
 header LauString.hh
 header LauSumPdf.hh

@@ -139,7 +139,6 @@ Thomas Latham
 #pragma link C++ class LauSigmaRes+;
 #pragma link C++ class LauSigmoidPdf+;
 #pragma link C++ class LauSimpleFitModel+;
-#pragma link C++ class LauSimFitMaster+;
 #pragma link C++ class LauSPlot+;
 #pragma link C++ class LauString+;
 #pragma link C++ class LauSumPdf+;

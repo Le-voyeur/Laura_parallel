@@ -35,11 +35,11 @@
 #include "TDataMember.h"
 
 // Header files passed as explicit arguments
+#include "LauAbsCoeffSet.hh"
 #include "LauCPFitModel.hh"
 #include "LauMagPhaseCoeffSet.hh"
 #include "LauFlatNR.hh"
 #include "LauLinearPdf.hh"
-#include "LauSimFitMaster.hh"
 #include "LauParticlePDG.hh"
 #include "LauCartesianCPCoeffSet.hh"
 #include "LauKMatrixProdSVP.hh"
@@ -153,7 +153,6 @@
 #include "LauRealImagGammaCPCoeffSet.hh"
 #include "LauGounarisSakuraiRes.hh"
 #include "LauResonanceInfo.hh"
-#include "LauAbsCoeffSet.hh"
 
 // Header files passed via #pragma extra_include
 
@@ -213,6 +212,34 @@ namespace LauConstants {
 
    }
 }
+
+namespace ROOT {
+   static void delete_LauAbsCoeffSet(void *p);
+   static void deleteArray_LauAbsCoeffSet(void *p);
+   static void destruct_LauAbsCoeffSet(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::LauAbsCoeffSet*)
+   {
+      ::LauAbsCoeffSet *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::LauAbsCoeffSet >(0);
+      static ::ROOT::TGenericClassInfo 
+         instance("LauAbsCoeffSet", ::LauAbsCoeffSet::Class_Version(), "LauAbsCoeffSet.hh", 49,
+                  typeid(::LauAbsCoeffSet), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &::LauAbsCoeffSet::Dictionary, isa_proxy, 4,
+                  sizeof(::LauAbsCoeffSet) );
+      instance.SetDelete(&delete_LauAbsCoeffSet);
+      instance.SetDeleteArray(&deleteArray_LauAbsCoeffSet);
+      instance.SetDestructor(&destruct_LauAbsCoeffSet);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::LauAbsCoeffSet*)
+   {
+      return GenerateInitInstanceLocal((::LauAbsCoeffSet*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+} // end of namespace ROOT
 
 namespace ROOT {
    static TClass *LauAbsFitterlELauMinuitgR_Dictionary();
@@ -307,7 +334,7 @@ namespace ROOT {
       ::LauFitObject *ptr = 0;
       static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::LauFitObject >(0);
       static ::ROOT::TGenericClassInfo 
-         instance("LauFitObject", ::LauFitObject::Class_Version(), "LauFitObject.hh", 45,
+         instance("LauFitObject", ::LauFitObject::Class_Version(), "LauFitObject.hh", 46,
                   typeid(::LauFitObject), ::ROOT::Internal::DefineBehavior(ptr, ptr),
                   &::LauFitObject::Dictionary, isa_proxy, 4,
                   sizeof(::LauFitObject) );
@@ -602,34 +629,6 @@ namespace ROOT {
 } // end of namespace ROOT
 
 namespace ROOT {
-   static void delete_LauAbsCoeffSet(void *p);
-   static void deleteArray_LauAbsCoeffSet(void *p);
-   static void destruct_LauAbsCoeffSet(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::LauAbsCoeffSet*)
-   {
-      ::LauAbsCoeffSet *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::LauAbsCoeffSet >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("LauAbsCoeffSet", ::LauAbsCoeffSet::Class_Version(), "LauAbsCoeffSet.hh", 49,
-                  typeid(::LauAbsCoeffSet), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &::LauAbsCoeffSet::Dictionary, isa_proxy, 4,
-                  sizeof(::LauAbsCoeffSet) );
-      instance.SetDelete(&delete_LauAbsCoeffSet);
-      instance.SetDeleteArray(&deleteArray_LauAbsCoeffSet);
-      instance.SetDestructor(&destruct_LauAbsCoeffSet);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::LauAbsCoeffSet*)
-   {
-      return GenerateInitInstanceLocal((::LauAbsCoeffSet*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
-} // end of namespace ROOT
-
-namespace ROOT {
    static void delete_LauMagPhaseCoeffSet(void *p);
    static void deleteArray_LauMagPhaseCoeffSet(void *p);
    static void destruct_LauMagPhaseCoeffSet(void *p);
@@ -868,34 +867,6 @@ namespace ROOT {
    }
    // Static variable to force the class initialization
    static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::LauLinearPdf*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
-} // end of namespace ROOT
-
-namespace ROOT {
-   static void delete_LauSimFitMaster(void *p);
-   static void deleteArray_LauSimFitMaster(void *p);
-   static void destruct_LauSimFitMaster(void *p);
-
-   // Function generating the singleton type initializer
-   static TGenericClassInfo *GenerateInitInstanceLocal(const ::LauSimFitMaster*)
-   {
-      ::LauSimFitMaster *ptr = 0;
-      static ::TVirtualIsAProxy* isa_proxy = new ::TInstrumentedIsAProxy< ::LauSimFitMaster >(0);
-      static ::ROOT::TGenericClassInfo 
-         instance("LauSimFitMaster", ::LauSimFitMaster::Class_Version(), "LauSimFitMaster.hh", 57,
-                  typeid(::LauSimFitMaster), ::ROOT::Internal::DefineBehavior(ptr, ptr),
-                  &::LauSimFitMaster::Dictionary, isa_proxy, 4,
-                  sizeof(::LauSimFitMaster) );
-      instance.SetDelete(&delete_LauSimFitMaster);
-      instance.SetDeleteArray(&deleteArray_LauSimFitMaster);
-      instance.SetDestructor(&destruct_LauSimFitMaster);
-      return &instance;
-   }
-   TGenericClassInfo *GenerateInitInstance(const ::LauSimFitMaster*)
-   {
-      return GenerateInitInstanceLocal((::LauSimFitMaster*)0);
-   }
-   // Static variable to force the class initialization
-   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::LauSimFitMaster*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
 } // end of namespace ROOT
 
 namespace ROOT {
@@ -3608,6 +3579,41 @@ namespace ROOT {
 } // end of namespace ROOT
 
 //______________________________________________________________________________
+atomic_TClass_ptr LauAbsCoeffSet::fgIsA(0);  // static to hold class pointer
+
+//______________________________________________________________________________
+const char *LauAbsCoeffSet::Class_Name()
+{
+   return "LauAbsCoeffSet";
+}
+
+//______________________________________________________________________________
+const char *LauAbsCoeffSet::ImplFileName()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0)->GetImplFileName();
+}
+
+//______________________________________________________________________________
+int LauAbsCoeffSet::ImplFileLine()
+{
+   return ::ROOT::GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0)->GetImplFileLine();
+}
+
+//______________________________________________________________________________
+TClass *LauAbsCoeffSet::Dictionary()
+{
+   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0)->GetClass();
+   return fgIsA;
+}
+
+//______________________________________________________________________________
+TClass *LauAbsCoeffSet::Class()
+{
+   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0)->GetClass(); }
+   return fgIsA;
+}
+
+//______________________________________________________________________________
 template <> atomic_TClass_ptr LauAbsFitter<LauMinuit>::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
@@ -3958,41 +3964,6 @@ TClass *LauCPFitModel::Class()
 }
 
 //______________________________________________________________________________
-atomic_TClass_ptr LauAbsCoeffSet::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-const char *LauAbsCoeffSet::Class_Name()
-{
-   return "LauAbsCoeffSet";
-}
-
-//______________________________________________________________________________
-const char *LauAbsCoeffSet::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-int LauAbsCoeffSet::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-TClass *LauAbsCoeffSet::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-TClass *LauAbsCoeffSet::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::LauAbsCoeffSet*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-//______________________________________________________________________________
 atomic_TClass_ptr LauMagPhaseCoeffSet::fgIsA(0);  // static to hold class pointer
 
 //______________________________________________________________________________
@@ -4234,41 +4205,6 @@ TClass *LauLinearPdf::Dictionary()
 TClass *LauLinearPdf::Class()
 {
    if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::LauLinearPdf*)0x0)->GetClass(); }
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-atomic_TClass_ptr LauSimFitMaster::fgIsA(0);  // static to hold class pointer
-
-//______________________________________________________________________________
-const char *LauSimFitMaster::Class_Name()
-{
-   return "LauSimFitMaster";
-}
-
-//______________________________________________________________________________
-const char *LauSimFitMaster::ImplFileName()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::LauSimFitMaster*)0x0)->GetImplFileName();
-}
-
-//______________________________________________________________________________
-int LauSimFitMaster::ImplFileLine()
-{
-   return ::ROOT::GenerateInitInstanceLocal((const ::LauSimFitMaster*)0x0)->GetImplFileLine();
-}
-
-//______________________________________________________________________________
-TClass *LauSimFitMaster::Dictionary()
-{
-   fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::LauSimFitMaster*)0x0)->GetClass();
-   return fgIsA;
-}
-
-//______________________________________________________________________________
-TClass *LauSimFitMaster::Class()
-{
-   if (!fgIsA.load()) { R__LOCKGUARD(gInterpreterMutex); fgIsA = ::ROOT::GenerateInitInstanceLocal((const ::LauSimFitMaster*)0x0)->GetClass(); }
    return fgIsA;
 }
 
@@ -7493,6 +7429,32 @@ TClass *LauResonanceInfo::Class()
 }
 
 //______________________________________________________________________________
+void LauAbsCoeffSet::Streamer(TBuffer &R__b)
+{
+   // Stream an object of class LauAbsCoeffSet.
+
+   if (R__b.IsReading()) {
+      R__b.ReadClassBuffer(LauAbsCoeffSet::Class(),this);
+   } else {
+      R__b.WriteClassBuffer(LauAbsCoeffSet::Class(),this);
+   }
+}
+
+namespace ROOT {
+   // Wrapper around operator delete
+   static void delete_LauAbsCoeffSet(void *p) {
+      delete ((::LauAbsCoeffSet*)p);
+   }
+   static void deleteArray_LauAbsCoeffSet(void *p) {
+      delete [] ((::LauAbsCoeffSet*)p);
+   }
+   static void destruct_LauAbsCoeffSet(void *p) {
+      typedef ::LauAbsCoeffSet current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::LauAbsCoeffSet
+
+//______________________________________________________________________________
 template <> void LauAbsFitter<LauMinuit>::Streamer(TBuffer &R__b)
 {
    // Stream an object of class LauAbsFitter<LauMinuit>.
@@ -7802,32 +7764,6 @@ namespace ROOT {
 } // end of namespace ROOT for class ::LauCPFitModel
 
 //______________________________________________________________________________
-void LauAbsCoeffSet::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class LauAbsCoeffSet.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(LauAbsCoeffSet::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(LauAbsCoeffSet::Class(),this);
-   }
-}
-
-namespace ROOT {
-   // Wrapper around operator delete
-   static void delete_LauAbsCoeffSet(void *p) {
-      delete ((::LauAbsCoeffSet*)p);
-   }
-   static void deleteArray_LauAbsCoeffSet(void *p) {
-      delete [] ((::LauAbsCoeffSet*)p);
-   }
-   static void destruct_LauAbsCoeffSet(void *p) {
-      typedef ::LauAbsCoeffSet current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::LauAbsCoeffSet
-
-//______________________________________________________________________________
 void LauMagPhaseCoeffSet::Streamer(TBuffer &R__b)
 {
    // Stream an object of class LauMagPhaseCoeffSet.
@@ -8029,32 +7965,6 @@ namespace ROOT {
       ((current_t*)p)->~current_t();
    }
 } // end of namespace ROOT for class ::LauLinearPdf
-
-//______________________________________________________________________________
-void LauSimFitMaster::Streamer(TBuffer &R__b)
-{
-   // Stream an object of class LauSimFitMaster.
-
-   if (R__b.IsReading()) {
-      R__b.ReadClassBuffer(LauSimFitMaster::Class(),this);
-   } else {
-      R__b.WriteClassBuffer(LauSimFitMaster::Class(),this);
-   }
-}
-
-namespace ROOT {
-   // Wrapper around operator delete
-   static void delete_LauSimFitMaster(void *p) {
-      delete ((::LauSimFitMaster*)p);
-   }
-   static void deleteArray_LauSimFitMaster(void *p) {
-      delete [] ((::LauSimFitMaster*)p);
-   }
-   static void destruct_LauSimFitMaster(void *p) {
-      typedef ::LauSimFitMaster current_t;
-      ((current_t*)p)->~current_t();
-   }
-} // end of namespace ROOT for class ::LauSimFitMaster
 
 //______________________________________________________________________________
 void LauParticlePDG::Streamer(TBuffer &R__b)
@@ -10834,11 +10744,11 @@ namespace ROOT {
 namespace {
   void TriggerDictionaryInitialization_libLaurapLpL_Impl() {
     static const char* headers[] = {
+"LauAbsCoeffSet.hh",
 "LauCPFitModel.hh",
 "LauMagPhaseCoeffSet.hh",
 "LauFlatNR.hh",
 "LauLinearPdf.hh",
-"LauSimFitMaster.hh",
 "LauParticlePDG.hh",
 "LauCartesianCPCoeffSet.hh",
 "LauKMatrixProdSVP.hh",
@@ -10952,7 +10862,6 @@ namespace {
 "LauRealImagGammaCPCoeffSet.hh",
 "LauGounarisSakuraiRes.hh",
 "LauResonanceInfo.hh",
-"LauAbsCoeffSet.hh",
 0
     };
     static const char* includePaths[] = {
@@ -10967,6 +10876,7 @@ namespace {
 #pragma clang diagnostic ignored "-Wignored-attributes"
 #pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
 extern int __Cling_AutoLoading_Map;
+class __attribute__((annotate("$clingAutoload$LauAbsCoeffSet.hh")))  LauAbsCoeffSet;
 class __attribute__((annotate("$clingAutoload$LauMinuit.hh")))  __attribute__((annotate("$clingAutoload$LauCPFitModel.hh")))  LauMinuit;
 template <typename AbsFitter> class __attribute__((annotate("$clingAutoload$LauAbsFitter.hh")))  __attribute__((annotate("$clingAutoload$LauCPFitModel.hh")))  LauAbsFitter;
 
@@ -10980,7 +10890,6 @@ class __attribute__((annotate(R"ATTRDUMP(Fit/toyMC results ntuple)ATTRDUMP"))) _
 class __attribute__((annotate(R"ATTRDUMP(Abstract interface to fit/toyMC model)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$LauAbsFitModel.hh")))  __attribute__((annotate("$clingAutoload$LauCPFitModel.hh")))  LauAbsFitModel;
 class __attribute__((annotate("$clingAutoload$LauComplex.hh")))  __attribute__((annotate("$clingAutoload$LauCPFitModel.hh")))  LauComplex;
 class __attribute__((annotate(R"ATTRDUMP(CP fit/ToyMC model)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$LauCPFitModel.hh")))  LauCPFitModel;
-class __attribute__((annotate("$clingAutoload$LauAbsCoeffSet.hh")))  __attribute__((annotate("$clingAutoload$LauMagPhaseCoeffSet.hh")))  LauAbsCoeffSet;
 class __attribute__((annotate("$clingAutoload$LauMagPhaseCoeffSet.hh")))  LauMagPhaseCoeffSet;
 class __attribute__((annotate("$clingAutoload$LauBlattWeisskopfFactor.hh")))  __attribute__((annotate("$clingAutoload$LauFlatNR.hh")))  LauBlattWeisskopfFactor;
 class __attribute__((annotate(R"ATTRDUMP(Abstract resonance class)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$LauAbsResonance.hh")))  __attribute__((annotate("$clingAutoload$LauFlatNR.hh")))  LauAbsResonance;
@@ -10989,7 +10898,6 @@ class __attribute__((annotate("$clingAutoload$LauFitDataTree.hh")))  __attribute
 class __attribute__((annotate("$clingAutoload$LauParamFixed.hh")))  __attribute__((annotate("$clingAutoload$LauLinearPdf.hh")))  LauParamFixed;
 class __attribute__((annotate(R"ATTRDUMP(Define the abstract PDF class)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$LauAbsPdf.hh")))  __attribute__((annotate("$clingAutoload$LauLinearPdf.hh")))  LauAbsPdf;
 class __attribute__((annotate(R"ATTRDUMP(Define the Linear PDF)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$LauLinearPdf.hh")))  LauLinearPdf;
-class __attribute__((annotate("$clingAutoload$LauSimFitMaster.hh")))  LauSimFitMaster;
 class __attribute__((annotate("$clingAutoload$LauParticlePDG.hh")))  LauParticlePDG;
 class __attribute__((annotate("$clingAutoload$LauCartesianCPCoeffSet.hh")))  LauCartesianCPCoeffSet;
 class __attribute__((annotate(R"ATTRDUMP(K-matrix production SVP term)ATTRDUMP"))) __attribute__((annotate("$clingAutoload$LauKMatrixProdSVP.hh")))  LauKMatrixProdSVP;
@@ -11092,11 +11000,11 @@ class __attribute__((annotate(R"ATTRDUMP(Specify each allowed resonance)ATTRDUMP
 
 #define _BACKWARD_BACKWARD_WARNING_H
 // Inline headers
+#include "LauAbsCoeffSet.hh"
 #include "LauCPFitModel.hh"
 #include "LauMagPhaseCoeffSet.hh"
 #include "LauFlatNR.hh"
 #include "LauLinearPdf.hh"
-#include "LauSimFitMaster.hh"
 #include "LauParticlePDG.hh"
 #include "LauCartesianCPCoeffSet.hh"
 #include "LauKMatrixProdSVP.hh"
@@ -11210,7 +11118,6 @@ class __attribute__((annotate(R"ATTRDUMP(Specify each allowed resonance)ATTRDUMP
 #include "LauRealImagGammaCPCoeffSet.hh"
 #include "LauGounarisSakuraiRes.hh"
 #include "LauResonanceInfo.hh"
-#include "LauAbsCoeffSet.hh"
 
 #undef  _BACKWARD_BACKWARD_WARNING_H
 )DICTPAYLOAD";
@@ -11325,7 +11232,6 @@ class __attribute__((annotate(R"ATTRDUMP(Specify each allowed resonance)ATTRDUMP
 "LauScfMap", payloadCode, "@",
 "LauSigmaRes", payloadCode, "@",
 "LauSigmoidPdf", payloadCode, "@",
-"LauSimFitMaster", payloadCode, "@",
 "LauSimpleFitModel", payloadCode, "@",
 "LauString", payloadCode, "@",
 "LauSumPdf", payloadCode, "@",

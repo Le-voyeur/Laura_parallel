@@ -42,6 +42,7 @@ Thomas Latham
 
 #include "LauAbsFitter.hh"
 
+//template<typename FitObject>
 class LauFitObject : public TObject {
 
 	public:
