@@ -1,0 +1,795 @@
+INFO in LauDaughters::setParentType : Setting parent to be B- == -521
+INFO in LauDaughters::setDaugType : Setting daughter 1 to be pi- == -211
+INFO in LauDaughters::setDaugType : Setting daughter 2 to be pi+ == 211
+INFO in LauDaughters::setDaugType : Setting daughter 3 to be K- == -321
+INFO in LauKinematics::LauKinematics : squareDP = kTRUE
+INFO in LauDaughters::setParentType : Setting parent to be B+ == 521
+INFO in LauDaughters::setDaugType : Setting daughter 1 to be pi+ == 211
+INFO in LauDaughters::setDaugType : Setting daughter 2 to be pi- == -211
+INFO in LauDaughters::setDaugType : Setting daughter 3 to be K+ == 321
+INFO in LauKinematics::LauKinematics : squareDP = kTRUE
+INFO in LauVetoes::addMassSqVeto : Adding the veto for resPairAmpInt = 1, with 3.0625 < m^2_23 < 3.8025
+INFO in LauVetoes::addMassSqVeto : Adding the veto for resPairAmpInt = 3, with 3.0625 < m^2_12 < 3.61
+INFO in LauVetoes::addMassSqVeto : Adding the veto for resPairAmpInt = 3, with 9.3025 < m^2_12 < 9.9225
+INFO in LauEffModel::setEffHisto : Efficiency histogram has upperHalf = 0
+INFO in LauEffModel::setEffHisto : Efficiency histogram has upperHalf = 0
+INFO in LauResonanceMaker::createResonanceVector : Setting up possible resonance states...
+INFO in LauResonanceMaker::getResonance : Freezing amplitude formalism:
+                                        : Spin factors use Zemach spin tensors, with bachelor momentum in resonance rest frame
+                                        : Blatt-Weisskopf barrier factors are the 'primed' form
+                                        : Blatt-Weisskopf barrier factors use bachelor momentum in resonance rest frame
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(770)
+                                        : Using rho-omega mass mixing lineshape. 
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(770)
+                                        : Using Gounaris-Sakurai lineshape. 
+INFO in LauBlattWeisskopfFactor constructor : creating radius parameter for category "Light", with initial value 4
+INFO in LauBlattWeisskopfFactor constructor : creating radius parameter for category "Parent", with initial value 4
+INFO in LauResonanceMaker::getResonance : Creating resonance: omega(782)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 1
+INFO in LauRhoOmegaMix::setResonanceParameter : Setting parameter magB = 2.30714
+INFO in LauRhoOmegaMix::setResonanceParameter : Setting parameter phiB = 0.238488
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(770)_COPY
+                                        : Using rho-omega mass mixing lineshape. 
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(770)_COPY
+                                        : Using Gounaris-Sakurai lineshape. 
+INFO in LauResonanceMaker::getResonance : Creating resonance: omega(782)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 2
+INFO in LauRhoOmegaMix::setResonanceParameter : Setting parameter magB = 0.929338
+INFO in LauRhoOmegaMix::setResonanceParameter : Setting parameter phiB = 6.96562
+INFO in LauResonanceMaker::getResonance : Creating resonance: f_2(1270)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 3
+INFO in LauAbsResonance::changeResonance : Setting mass to 1.27293
+INFO in LauAbsResonance::changeResonance : Setting width to 0.184508
+INFO in LauAbsResonance::changeResonance : Setting spin to 2
+INFO in LauResonanceMaker::getResonance : Creating resonance: chi_c0
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauBlattWeisskopfFactor constructor : creating radius parameter for category "Charmonium", with initial value 4
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 4
+INFO in LauAbsResonance::changeResonance : Setting mass to 3.41514
+INFO in LauAbsResonance::changeResonance : Setting width to 0.0185583
+INFO in LauAbsResonance::changeResonance : Setting spin to 0
+INFO in LauResonanceMaker::getResonance : Creating resonance: f_0(980)
+                                        : Using Flatte lineshape. 
+INFO in LauFlatteRes::LauFlatteRes : Setting default parameters for f_0(980):
+                                   : mass = 0.965 GeV/c^2
+                                   : g1   = 0.165 GeV^2
+                                   : g2   = 0.69465 GeV^2
+                                   : Will absorb m0 into couplings
+                                   : Will not use Adler zero term
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 5
+INFO in LauAbsResonance::changeResonance : Setting mass to 0.943811
+INFO in LauAbsResonance::changeResonance : Setting width to 0.07
+INFO in LauAbsResonance::changeResonance : Setting spin to 0
+INFO in LauFlatteRes::setResonanceParameter : Setting g1 parameter to 0.182638
+INFO in LauFlatteRes::setResonanceParameter : Setting g2 parameter to 0.584885
+INFO in LauResonanceMaker::getResonance : Creating resonance: f_0(1370)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 6
+INFO in LauResonanceMaker::getResonance : Creating resonance: f_0(1500)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 7
+INFO in LauResonanceMaker::getResonance : Creating resonance: f'_2(1525)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 8
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(1450)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 9
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0(892)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauBlattWeisskopfFactor constructor : creating radius parameter for category "Kstar", with initial value 4
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 10
+INFO in LauAbsResonance::changeResonance : Setting mass to 0.894334
+INFO in LauAbsResonance::changeResonance : Setting width to 0.0456884
+INFO in LauAbsResonance::changeResonance : Setting spin to 1
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0_2(1430)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 11
+INFO in LauAbsResonance::changeResonance : Setting mass to 1.43761
+INFO in LauAbsResonance::changeResonance : Setting width to 0.0711045
+INFO in LauAbsResonance::changeResonance : Setting spin to 2
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0_0(1430)
+                                        : Using LASS lineshape (resonant part only). 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 12
+INFO in LauAbsResonance::changeResonance : Setting mass to 1.45135
+INFO in LauAbsResonance::changeResonance : Setting width to 0.188829
+INFO in LauAbsResonance::changeResonance : Setting spin to 0
+INFO in LauLASSBWRes::setResonanceParameter : Setting LASS Effective Range = 0
+INFO in LauLASSBWRes::setResonanceParameter : Setting LASS Scattering Length = 3.1762
+INFO in LauResonanceMaker::getResonance : Creating resonance: LASSNR0
+                                        : Using LASS lineshape (nonresonant part only). 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 13
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0(1410)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 14
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0(1680)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 15
+ERROR in LauResonanceMaker::getResonance : Unable to locate resonance info for: K*0_3(1780)
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(770)
+                                        : Using rho-omega mass mixing lineshape. 
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(770)
+                                        : Using Gounaris-Sakurai lineshape. 
+INFO in LauResonanceMaker::getResonance : Creating resonance: omega(782)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 1
+INFO in LauRhoOmegaMix::setResonanceParameter : Setting parameter magB = 2.30714
+INFO in LauRhoOmegaMix::setResonanceParameter : Setting parameter phiB = 0.238488
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(770)_COPY
+                                        : Using rho-omega mass mixing lineshape. 
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(770)_COPY
+                                        : Using Gounaris-Sakurai lineshape. 
+INFO in LauResonanceMaker::getResonance : Creating resonance: omega(782)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 2
+INFO in LauRhoOmegaMix::setResonanceParameter : Setting parameter magB = 0.929338
+INFO in LauRhoOmegaMix::setResonanceParameter : Setting parameter phiB = 6.96562
+INFO in LauResonanceMaker::getResonance : Creating resonance: f_2(1270)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 3
+INFO in LauAbsResonance::changeResonance : Setting mass to 1.27293
+INFO in LauAbsResonance::changeResonance : Setting width to 0.184508
+INFO in LauAbsResonance::changeResonance : Setting spin to 2
+INFO in LauResonanceMaker::getResonance : Creating resonance: chi_c0
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 4
+INFO in LauAbsResonance::changeResonance : Setting mass to 3.41514
+INFO in LauAbsResonance::changeResonance : Setting width to 0.0185583
+INFO in LauAbsResonance::changeResonance : Setting spin to 0
+INFO in LauResonanceMaker::getResonance : Creating resonance: f_0(980)
+                                        : Using Flatte lineshape. 
+INFO in LauFlatteRes::LauFlatteRes : Setting default parameters for f_0(980):
+                                   : mass = 0.965 GeV/c^2
+                                   : g1   = 0.165 GeV^2
+                                   : g2   = 0.69465 GeV^2
+                                   : Will absorb m0 into couplings
+                                   : Will not use Adler zero term
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 5
+INFO in LauAbsResonance::changeResonance : Setting mass to 0.943811
+INFO in LauAbsResonance::changeResonance : Setting width to 0.07
+INFO in LauAbsResonance::changeResonance : Setting spin to 0
+INFO in LauFlatteRes::setResonanceParameter : Setting g1 parameter to 0.182638
+INFO in LauFlatteRes::setResonanceParameter : Setting g2 parameter to 0.584885
+INFO in LauResonanceMaker::getResonance : Creating resonance: f_0(1370)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 6
+INFO in LauResonanceMaker::getResonance : Creating resonance: f_0(1500)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 7
+INFO in LauResonanceMaker::getResonance : Creating resonance: f'_2(1525)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 8
+INFO in LauResonanceMaker::getResonance : Creating resonance: rho0(1450)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 9
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0(892)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 10
+INFO in LauAbsResonance::changeResonance : Setting mass to 0.894334
+INFO in LauAbsResonance::changeResonance : Setting width to 0.0456884
+INFO in LauAbsResonance::changeResonance : Setting spin to 1
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0_2(1430)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 11
+INFO in LauAbsResonance::changeResonance : Setting mass to 1.43761
+INFO in LauAbsResonance::changeResonance : Setting width to 0.0711045
+INFO in LauAbsResonance::changeResonance : Setting spin to 2
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0_0(1430)
+                                        : Using LASS lineshape (resonant part only). 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 12
+INFO in LauAbsResonance::changeResonance : Setting mass to 1.45135
+INFO in LauAbsResonance::changeResonance : Setting width to 0.188829
+INFO in LauAbsResonance::changeResonance : Setting spin to 0
+INFO in LauLASSBWRes::setResonanceParameter : Setting LASS Effective Range = 0
+INFO in LauLASSBWRes::setResonanceParameter : Setting LASS Scattering Length = 3.1762
+INFO in LauResonanceMaker::getResonance : Creating resonance: LASSNR0
+                                        : Using LASS lineshape (nonresonant part only). 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 13
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0(1410)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 14
+INFO in LauResonanceMaker::getResonance : Creating resonance: K*0(1680)
+                                        : Using relativistic Breit-Wigner lineshape. 
+INFO in LauIsobarDynamics::addResonance : Successfully added resonance. Total number of resonances so far = 15
+ERROR in LauResonanceMaker::getResonance : Unable to locate resonance info for: K*0_3(1780)
+LauCPFitModel construct 
+AA 1.01569 BB 0 AAb 0.984311  BBb 0
+going into rho
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "rho0(770)" to the fit model.
+INFO in LauMagPhaseCPCoeffSet::printParValues : Component "rho0(770)" has mag = 1,	phase = 0,	magBar = 0.0156889,	phaseBar = 0.
+indi_compo:   iter[0]->name():  rho0(770)
+ ========================/ leave loop /============================ 
+AA 0.286265 BB -0.394634 AAb 0.237951  BBb -0.365188
+going into rho
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "rho0(770)_COPY" to the fit model.
+INFO in LauMagPhaseCPCoeffSet::printParValues : Component "rho0(770)_COPY" has mag = 0.461555,	phase = -0.966868,	magBar = 0.0282901,	phaseBar = -0.547358.
+indi_compo:   iter[0]->name():  rho0(770)_COPY
+ ========================/ leave loop /============================ 
+AA -2.41553 BB -0.412998 AAb -2.47915  BBb -0.485528
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "f_2(1270)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "f_2(1270)" has x = -2.44734,	y = -0.449263,	Delta x = 0.0318121,	Delta y = 0.0362649.
+indi_compo:   iter[0]->name():  f_2(1270)
+ ========================/ leave loop /============================ 
+AA -1.32658 BB 0.941723 AAb -1.2186  BBb 0.875617
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "chi_c0" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "chi_c0" has x = -1.27259,	y = 0.90867,	Delta x = -0.0539885,	Delta y = 0.0330527.
+indi_compo:   iter[0]->name():  chi_c0
+ ========================/ leave loop /============================ 
+AA 0.116204 BB 0.021456 AAb 0.26727  BBb -0.241932
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "f_0(980)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "f_0(980)" has x = 0.191737,	y = -0.110238,	Delta x = -0.0755326,	Delta y = 0.131694.
+indi_compo:   iter[0]->name():  f_0(980)
+ ========================/ leave loop /============================ 
+AA -0.0320466 BB -0.0964508 AAb -0.135966  BBb -0.114599
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "f_0(1370)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "f_0(1370)" has x = -0.0840063,	y = -0.105525,	Delta x = 0.0519597,	Delta y = 0.00907424.
+indi_compo:   iter[0]->name():  f_0(1370)
+ ========================/ leave loop /============================ 
+AA -0.0918781 BB 0.15304 AAb -0.156946  BBb 0.25632
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "f_0(1500)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "f_0(1500)" has x = -0.124412,	y = 0.20468,	Delta x = 0.0325339,	Delta y = -0.0516399.
+indi_compo:   iter[0]->name():  f_0(1500)
+ ========================/ leave loop /============================ 
+AA 0.622236 BB -0.70935 AAb 0.281272  BBb -0.04402
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "f'_2(1525)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "f'_2(1525)" has x = 0.451754,	y = -0.376685,	Delta x = 0.170482,	Delta y = -0.332665.
+indi_compo:   iter[0]->name():  f'_2(1525)
+ ========================/ leave loop /============================ 
+AA 0.983231 BB 0.29706 AAb -0.321287  BBb 0.690226
+going into rho
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "rho0(1450)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "rho0(1450)" has x = 0.491615,	y = 0.14853,	Delta x = -0.160643,	Delta y = 0.345113.
+indi_compo:   iter[0]->name():  rho0(1450)
+ ========================/ leave loop /============================ 
+AA 0.310237 BB -0.296807 AAb 0.201922  BBb -0.042779
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "K*0(892)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "K*0(892)" has x = 0.256079,	y = -0.169793,	Delta x = 0.0541575,	Delta y = -0.127014.
+indi_compo:   iter[0]->name():  K*0(892)
+ ========================/ leave loop /============================ 
+AA 0.315944 BB -0.0578573 AAb 0.299554  BBb -0.0931639
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "K*0_2(1430)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "K*0_2(1430)" has x = 0.307749,	y = -0.0755106,	Delta x = 0.00819517,	Delta y = 0.0176533.
+indi_compo:   iter[0]->name():  K*0_2(1430)
+ ========================/ leave loop /============================ 
+AA -0.887762 BB -0.96037 AAb -0.001128  BBb -1.13701
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "K*0_0(1430)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "K*0_0(1430)" has x = -0.444445,	y = -1.04869,	Delta x = -0.443317,	Delta y = 0.0883201.
+indi_compo:   iter[0]->name():  K*0_0(1430)
+ ========================/ leave loop /============================ 
+AA -0.013416 BB -0.151254 AAb 0.426692  BBb -0.285642
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "LASSNR0" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "LASSNR0" has x = 0.206638,	y = -0.218448,	Delta x = -0.220054,	Delta y = 0.0671944.
+indi_compo:   iter[0]->name():  LASSNR0
+ ========================/ leave loop /============================ 
+AA 0.0370165 BB 0.428807 AAb -0.229193  BBb 0.279325
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "K*0(1410)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "K*0(1410)" has x = -0.0960885,	y = 0.354066,	Delta x = 0.133105,	Delta y = 0.0747406.
+indi_compo:   iter[0]->name():  K*0(1410)
+ ========================/ leave loop /============================ 
+AA -0.140393 BB 0.0681064 AAb 0.0005574  BBb 0.0400212
+INFO in LauCPFitModel::setAmpCoeffSet : Added coefficients for component "K*0(1680)" to the fit model.
+INFO in LauCartesianCPCoeffSet::printParValues : Component "K*0(1680)" has x = -0.0699179,	y = 0.0540638,	Delta x = -0.0704753,	Delta y = 0.0140426.
+indi_compo:   iter[0]->name():  K*0(1680)
+ ========================/ leave loop /============================ 
+AA -0.125756 BB -0.0541201 AAb -0.0554498  BBb 0.0481013
+indi_compo:   iter[0]->name():  K*0_3(1780)
+ ========================/ leave loop /============================ 
+My Kpipi:  570
+My Kpipi:  578
+INFO in LauBkgndDPModel::setBkgndHisto : Background histogram has upperHalf = 0
+INFO in Lau2DHistDPPdf::calcHistNorm : Norm = 13.7179, bX*bY = 0.001*0.001 = 1e-06
+INFO in Lau2DHistDPPdf::checkNormalisation : Area = 1e+06, dx = 0.001, dy = 0.001, dx*dy = 1e-06
+                                           : Area with no norm = 1.37179e+07*dx*dy = 13.7179
+                                           : The total area of the normalised histogram PDF is 1
+INFO in Lau2DAbsHistDPPdf::calcMaxHeight : Max height = 172.232
+INFO in LauBkgndDPModel::setBkgndHisto : Background histogram has upperHalf = 0
+INFO in Lau2DHistDPPdf::calcHistNorm : Norm = 13.7177, bX*bY = 0.001*0.001 = 1e-06
+INFO in Lau2DHistDPPdf::checkNormalisation : Area = 1e+06, dx = 0.001, dy = 0.001, dx*dy = 1e-06
+                                           : Area with no norm = 1.37177e+07*dx*dy = 13.7177
+                                           : The total area of the normalised histogram PDF is 1
+INFO in Lau2DAbsHistDPPdf::calcMaxHeight : Max height = 172.232
+INFO in LauBkgndDPModel::setBkgndHisto : Background histogram has upperHalf = 0
+INFO in Lau2DHistDPPdf::calcHistNorm : Norm = 68.7615, bX*bY = 0.001*0.001 = 1e-06
+INFO in Lau2DHistDPPdf::checkNormalisation : Area = 1e+06, dx = 0.001, dy = 0.001, dx*dy = 1e-06
+                                           : Area with no norm = 6.87615e+07*dx*dy = 68.7615
+                                           : The total area of the normalised histogram PDF is 1
+INFO in Lau2DAbsHistDPPdf::calcMaxHeight : Max height = 1387.03
+INFO in LauBkgndDPModel::setBkgndHisto : Background histogram has upperHalf = 0
+INFO in Lau2DHistDPPdf::calcHistNorm : Norm = 55.164, bX*bY = 0.001*0.001 = 1e-06
+INFO in Lau2DHistDPPdf::checkNormalisation : Area = 1e+06, dx = 0.001, dy = 0.001, dx*dy = 1e-06
+                                           : Area with no norm = 5.5164e+07*dx*dy = 55.164
+                                           : The total area of the normalised histogram PDF is 1
+INFO in Lau2DAbsHistDPPdf::calcMaxHeight : Max height = 1213.74
+INFO in LauBkgndDPModel::setBkgndHisto : Background histogram has upperHalf = 0
+INFO in Lau2DHistDPPdf::calcHistNorm : Norm = 27.2655, bX*bY = 0.001*0.001 = 1e-06
+INFO in Lau2DHistDPPdf::checkNormalisation : Area = 1e+06, dx = 0.001, dy = 0.001, dx*dy = 1e-06
+                                           : Area with no norm = 2.72655e+07*dx*dy = 27.2655
+                                           : The total area of the normalised histogram PDF is 1
+INFO in Lau2DAbsHistDPPdf::calcMaxHeight : Max height = 445.227
+INFO in LauBkgndDPModel::setBkgndHisto : Background histogram has upperHalf = 0
+INFO in Lau2DHistDPPdf::calcHistNorm : Norm = 31.0276, bX*bY = 0.001*0.001 = 1e-06
+INFO in Lau2DHistDPPdf::checkNormalisation : Area = 1e+06, dx = 0.001, dy = 0.001, dx*dy = 1e-06
+                                           : Area with no norm = 3.10276e+07*dx*dy = 31.0276
+                                           : The total area of the normalised histogram PDF is 1
+INFO in Lau2DAbsHistDPPdf::calcMaxHeight : Max height = 495.419
+INFO in LauBkgndDPModel::setBkgndHisto : Background histogram has upperHalf = 0
+INFO in Lau2DHistDPPdf::calcHistNorm : Norm = 0.343216, bX*bY = 0.001*0.001 = 1e-06
+INFO in Lau2DHistDPPdf::checkNormalisation : Area = 1e+06, dx = 0.001, dy = 0.001, dx*dy = 1e-06
+                                           : Area with no norm = 343216*dx*dy = 0.343216
+                                           : The total area of the normalised histogram PDF is 1
+INFO in Lau2DAbsHistDPPdf::calcMaxHeight : Max height = 12.6675
+INFO in LauBkgndDPModel::setBkgndHisto : Background histogram has upperHalf = 0
+INFO in Lau2DHistDPPdf::calcHistNorm : Norm = 0.366548, bX*bY = 0.001*0.001 = 1e-06
+INFO in Lau2DHistDPPdf::checkNormalisation : Area = 1e+06, dx = 0.001, dy = 0.001, dx*dy = 1e-06
+                                           : Area with no norm = 366548*dx*dy = 0.366548
+                                           : The total area of the normalised histogram PDF is 1
+INFO in Lau2DAbsHistDPPdf::calcMaxHeight : Max height = 13.1349
+My Kpipi:  648
+INFO in LauCPFitModel::initialiseDPModels : Initialising signal DP model
+INFO in LauIsobarDynamics::initSummary : We are going to do a DP with B- going to pi- pi+ K-
+                                       : For the following resonance combinations:
+                                       : In tracks 2 and 3:
+                                       :   A9: K*0(892) to pi+, K-
+                                       :   A10: K*0_2(1430) to pi+, K-
+                                       :   A11: K*0_0(1430) to pi+, K-
+                                       :   A12: LASSNR0 to pi+, K-
+                                       :   A13: K*0(1410) to pi+, K-
+                                       :   A14: K*0(1680) to pi+, K-
+                                       : In tracks 1 and 3:
+                                       : In tracks 1 and 2:
+                                       :   A0: rho0(770) to pi-, pi+
+                                       :   A1: rho0(770)_COPY to pi-, pi+
+                                       :   A2: f_2(1270) to pi-, pi+
+                                       :   A3: chi_c0 to pi-, pi+
+                                       :   A4: f_0(980) to pi-, pi+
+                                       :   A5: f_0(1370) to pi-, pi+
+                                       :   A6: f_0(1500) to pi-, pi+
+                                       :   A7: f'_2(1525) to pi-, pi+
+                                       :   A8: rho0(1450) to pi-, pi+
+
+INFO in LauIsobarDynamics::initialise : Starting special run to generate the integrals for normalising the PDF...
+INFO in LauIsobarDynamics::calcDPNormalisationScheme : Found narrow resonance: rho0(770), mass = 0.78265, width = 0.00849, pair int = 3
+INFO in LauIsobarDynamics::calcDPNormalisationScheme : Found narrow resonance: rho0(770)_COPY, mass = 0.78265, width = 0.00849, pair int = 3
+INFO in LauIsobarDynamics::calcDPNormalisationScheme : Found narrow resonance: chi_c0, mass = 3.41514, width = 0.0185583, pair int = 3
+INFO in LauIsobarDynamics::calcDPNormalisationScheme : One or more narrow resonances found in m12, integrating over whole square Dalitz plot with bin widths of 0.001 in mPrime and 0.001 in thetaPrime...
+INFO in LauDPPartialIntegralInfo constructor : nmPrimePoints = 1000, nthPrimePoints = 1000
+                                             : mPrimeBinWidth = 0.001, thPrimeBinWidth = 0.001
+                                             : Integrating over mPrime = 0 to 1, thPrime = 0 to 1
+                                             : totmPrimeWeight = 2, totthPrimeWeight = 2
+INFO in LauIsobarDynamics::writeIntegralsFile : Writing integral output to integrals file normal_JVeto_GLASS_integ_neg.dat
+INFO in LauIsobarDynamics::initialise : Summary of the integrals:
+ fNorm[0] = 0.004842799043
+ fSqSum[0] = 42639.00917
+ fSqEffSum[0] = 112.2820652
+ fNorm[1] = 0.005022589982
+ fSqSum[1] = 39640.99509
+ fSqEffSum[1] = 104.1538686
+ fNorm[2] = 0.00118016983
+ fSqSum[2] = 717977.7471
+ fSqEffSum[2] = 1905.370956
+ fNorm[3] = 0.03598828074
+ fSqSum[3] = 772.1075526
+ fSqEffSum[3] = 2.79885051
+ fNorm[4] = 0.07113298715
+ fSqSum[4] = 197.6322916
+ fSqEffSum[4] = 0.6543484123
+ fNorm[5] = 0.08249388863
+ fSqSum[5] = 146.9455531
+ fSqEffSum[5] = 0.4548178212
+ fNorm[6] = 0.04658242838
+ fSqSum[6] = 460.8459235
+ fSqEffSum[6] = 1.433586238
+ fNorm[7] = 0.0008346674447
+ fSqSum[7] = 1435400.36
+ fSqEffSum[7] = 3873.498612
+ fNorm[8] = 0.012840269
+ fSqSum[8] = 6065.292583
+ fSqEffSum[8] = 14.19432212
+ fNorm[9] = 0.005455215997
+ fSqSum[9] = 33602.84881
+ fSqEffSum[9] = 96.70290216
+ fNorm[10] = 0.001032668915
+ fSqSum[10] = 937729.9594
+ fSqEffSum[10] = 2716.185962
+ fNorm[11] = 0.1029605444
+ fSqSum[11] = 94.33184744
+ fSqEffSum[11] = 0.2936376759
+ fNorm[12] = 0.06363603843
+ fSqSum[12] = 246.9412995
+ fSqEffSum[12] = 0.7334326772
+ fNorm[13] = 0.01112292503
+ fSqSum[13] = 8082.802741
+ fSqEffSum[13] = 21.83628798
+ fNorm[14] = 0.01428164814
+ fSqSum[14] = 4902.790565
+ fSqEffSum[14] = 9.574502953
+ fifjEffSum[0][0] = (112.2820652,0) fifjEffSum[0][1] = (106.4176005,3.248371775) fifjEffSum[0][2] = (2.02140344,-11.61186765) fifjEffSum[0][3] = (0.01750470299,-0.02206995652) fifjEffSum[0][4] = (-0.1516558605,-0.3750931777) fifjEffSum[0][5] = (-0.02047803255,-0.226951015) fifjEffSum[0][6] = (0.04788310212,-0.200026773) fifjEffSum[0][7] = (2.674220128,-5.811909236) fifjEffSum[0][8] = (0.9842993186,13.14102495) fifjEffSum[0][9] = (2.317312691,-0.7356377699) fifjEffSum[0][10] = (13.9904873,-8.332954198) fifjEffSum[0][11] = (0.07450867749,-0.1180332876) fifjEffSum[0][12] = (-0.2295886414,0.7748733337) fifjEffSum[0][13] = (2.555843506,0.3942357558) fifjEffSum[0][14] = (1.772564528,0.6217351608)
+ fifjEffSum[1][0] = (0,0) fifjEffSum[1][1] = (104.1538686,0) fifjEffSum[1][2] = (1.984603892,-11.70670436) fifjEffSum[1][3] = (0.01745085653,-0.02208227632) fifjEffSum[1][4] = (-0.1559631715,-0.3788112694) fifjEffSum[1][5] = (-0.02137611236,-0.2275456998) fifjEffSum[1][6] = (0.04753568189,-0.200630845) fifjEffSum[1][7] = (2.666331169,-5.848816715) fifjEffSum[1][8] = (1.03712862,13.1871424) fifjEffSum[1][9] = (2.312477968,-0.7395845813) fifjEffSum[1][10] = (13.9380991,-8.429394978) fifjEffSum[1][11] = (0.07433085015,-0.1176548561) fifjEffSum[1][12] = (-0.2287617718,0.7746621177) fifjEffSum[1][13] = (2.552817649,0.384484861) fifjEffSum[1][14] = (1.772038582,0.614192798)
+ fifjEffSum[2][0] = (0,0) fifjEffSum[2][1] = (0,0) fifjEffSum[2][2] = (1905.370956,0) fifjEffSum[2][3] = (0.09117852298,-0.2876482885) fifjEffSum[2][4] = (-2.946784846,4.331673354) fifjEffSum[2][5] = (-6.707399482,-2.591435639) fifjEffSum[2][6] = (-2.927972961,-7.054465446) fifjEffSum[2][7] = (387.5157292,1048.265376) fifjEffSum[2][8] = (-7.229202429,-4.856767455) fifjEffSum[2][9] = (10.06499832,1.615939696) fifjEffSum[2][10] = (83.38565582,-3.370805218) fifjEffSum[2][11] = (0.9282197197,-0.4647765807) fifjEffSum[2][12] = (-0.4553650464,3.891434744) fifjEffSum[2][13] = (6.870750173,10.18146226) fifjEffSum[2][14] = (1.005189347,11.99246887)
+ fifjEffSum[3][0] = (0,0) fifjEffSum[3][1] = (0,0) fifjEffSum[3][2] = (0,0) fifjEffSum[3][3] = (2.79885051,0) fifjEffSum[3][4] = (-0.01599102184,-0.03561990883) fifjEffSum[3][5] = (-0.01313750718,-0.04103617065) fifjEffSum[3][6] = (-0.01061763562,-0.0441229354) fifjEffSum[3][7] = (-0.03285992932,0.2560459863) fifjEffSum[3][8] = (0.003457439126,0.01678751719) fifjEffSum[3][9] = (-0.3300119926,-0.1475099892) fifjEffSum[3][10] = (-1.340609905,0.7182170009) fifjEffSum[3][11] = (-0.00895355083,-0.003806114027) fifjEffSum[3][12] = (0.05204715104,0.04401272523) fifjEffSum[3][13] = (-0.1155107556,-0.144158649) fifjEffSum[3][14] = (-0.0709301131,-0.07038705077)
+ fifjEffSum[4][0] = (0,0) fifjEffSum[4][1] = (0,0) fifjEffSum[4][2] = (0,0) fifjEffSum[4][3] = (0,0) fifjEffSum[4][4] = (0.6543484123,0) fifjEffSum[4][5] = (0.2030666908,0.2309706301) fifjEffSum[4][6] = (0.0846684299,0.2775624775) fifjEffSum[4][7] = (-0.08077735361,-3.054450253) fifjEffSum[4][8] = (-0.06280397804,-0.1156994626) fifjEffSum[4][9] = (0.08834879009,-0.1752453966) fifjEffSum[4][10] = (0.1109022069,-1.363419503) fifjEffSum[4][11] = (-0.00896493287,-0.002767516974) fifjEffSum[4][12] = (-0.006574594974,0.04587679995) fifjEffSum[4][13] = (0.1109321592,-0.1449834973) fifjEffSum[4][14] = (0.08366209253,-0.1337440363)
+ fifjEffSum[5][0] = (0,0) fifjEffSum[5][1] = (0,0) fifjEffSum[5][2] = (0,0) fifjEffSum[5][3] = (0,0) fifjEffSum[5][4] = (0,0) fifjEffSum[5][5] = (0.4548178212,0) fifjEffSum[5][6] = (0.4869961496,0.3583364666) fifjEffSum[5][7] = (-4.225756805,-4.908107531) fifjEffSum[5][8] = (-0.1867473631,-0.05938637004) fifjEffSum[5][9] = (0.04899272812,-0.2112254764) fifjEffSum[5][10] = (-0.2920552814,-1.470964346) fifjEffSum[5][11] = (-0.007857443052,-0.0006918322493) fifjEffSum[5][12] = (-0.001043476716,0.04923897613) fifjEffSum[5][13] = (0.07142284387,-0.1778608429) fifjEffSum[5][14] = (0.04074898808,-0.1584089277)
+ fifjEffSum[6][0] = (0,0) fifjEffSum[6][1] = (0,0) fifjEffSum[6][2] = (0,0) fifjEffSum[6][3] = (0,0) fifjEffSum[6][4] = (0,0) fifjEffSum[6][5] = (0,0) fifjEffSum[6][6] = (1.433586238,0) fifjEffSum[6][7] = (-17.05158906,-4.547766691) fifjEffSum[6][8] = (-0.2889733078,0.06123240327) fifjEffSum[6][9] = (0.01683344035,-0.2393848312) fifjEffSum[6][10] = (-0.5510390609,-1.56753714) fifjEffSum[6][11] = (-0.006932865329,0.001336682647) fifjEffSum[6][12] = (0.003592024778,0.05017271395) fifjEffSum[6][13] = (0.04051792385,-0.2075193721) fifjEffSum[6][14] = (0.009340265812,-0.178829302)
+ fifjEffSum[7][0] = (0,0) fifjEffSum[7][1] = (0,0) fifjEffSum[7][2] = (0,0) fifjEffSum[7][3] = (0,0) fifjEffSum[7][4] = (0,0) fifjEffSum[7][5] = (0,0) fifjEffSum[7][6] = (0,0) fifjEffSum[7][7] = (3873.498612,0) fifjEffSum[7][8] = (-8.925053406,3.074458198) fifjEffSum[7][9] = (11.2349326,-1.337616806) fifjEffSum[7][10] = (86.76611609,-29.00370683) fifjEffSum[7][11] = (0.6792911508,-0.4748216521) fifjEffSum[7][12] = (0.1487104831,3.472707988) fifjEffSum[7][13] = (9.297596607,7.371800308) fifjEffSum[7][14] = (4.517831981,10.44742151)
+ fifjEffSum[8][0] = (0,0) fifjEffSum[8][1] = (0,0) fifjEffSum[8][2] = (0,0) fifjEffSum[8][3] = (0,0) fifjEffSum[8][4] = (0,0) fifjEffSum[8][5] = (0,0) fifjEffSum[8][6] = (0,0) fifjEffSum[8][7] = (0,0) fifjEffSum[8][8] = (14.19432212,0) fifjEffSum[8][9] = (1.277571919,-1.133129043) fifjEffSum[8][10] = (2.572688071,-10.80974403) fifjEffSum[8][11] = (0.04525345413,-0.06719155807) fifjEffSum[8][12] = (0.002468171024,0.518673331) fifjEffSum[8][13] = (1.483296227,-0.3921206921) fifjEffSum[8][14] = (1.094008839,-0.02009432418)
+ fifjEffSum[9][0] = (0,0) fifjEffSum[9][1] = (0,0) fifjEffSum[9][2] = (0,0) fifjEffSum[9][3] = (0,0) fifjEffSum[9][4] = (0,0) fifjEffSum[9][5] = (0,0) fifjEffSum[9][6] = (0,0) fifjEffSum[9][7] = (0,0) fifjEffSum[9][8] = (0,0) fifjEffSum[9][9] = (96.70290216,0) fifjEffSum[9][10] = (5.823527189,-8.380810453) fifjEffSum[9][11] = (-0.2327268683,-0.02813710475) fifjEffSum[9][12] = (-0.09726851812,-0.6911184993) fifjEffSum[9][13] = (-1.518284147,9.595527462) fifjEffSum[9][14] = (-1.947060101,4.77537567)
+ fifjEffSum[10][0] = (0,0) fifjEffSum[10][1] = (0,0) fifjEffSum[10][2] = (0,0) fifjEffSum[10][3] = (0,0) fifjEffSum[10][4] = (0,0) fifjEffSum[10][5] = (0,0) fifjEffSum[10][6] = (0,0) fifjEffSum[10][7] = (0,0) fifjEffSum[10][8] = (0,0) fifjEffSum[10][9] = (0,0) fifjEffSum[10][10] = (2716.185962,0) fifjEffSum[10][11] = (2.024974044,3.500281358) fifjEffSum[10][12] = (-2.448583741,-1.389088323) fifjEffSum[10][13] = (-26.5347713,6.617225857) fifjEffSum[10][14] = (-4.567390759,-6.425565406)
+ fifjEffSum[11][0] = (0,0) fifjEffSum[11][1] = (0,0) fifjEffSum[11][2] = (0,0) fifjEffSum[11][3] = (0,0) fifjEffSum[11][4] = (0,0) fifjEffSum[11][5] = (0,0) fifjEffSum[11][6] = (0,0) fifjEffSum[11][7] = (0,0) fifjEffSum[11][8] = (0,0) fifjEffSum[11][9] = (0,0) fifjEffSum[11][10] = (0,0) fifjEffSum[11][11] = (0.2936376759,0) fifjEffSum[11][12] = (-0.1738460559,0.1419624602) fifjEffSum[11][13] = (0.1531510704,-0.3847568469) fifjEffSum[11][14] = (0.1473939221,-0.01157460789)
+ fifjEffSum[12][0] = (0,0) fifjEffSum[12][1] = (0,0) fifjEffSum[12][2] = (0,0) fifjEffSum[12][3] = (0,0) fifjEffSum[12][4] = (0,0) fifjEffSum[12][5] = (0,0) fifjEffSum[12][6] = (0,0) fifjEffSum[12][7] = (0,0) fifjEffSum[12][8] = (0,0) fifjEffSum[12][9] = (0,0) fifjEffSum[12][10] = (0,0) fifjEffSum[12][11] = (0,0) fifjEffSum[12][12] = (0.7334326772,0) fifjEffSum[12][13] = (-0.4614342622,0.06700560592) fifjEffSum[12][14] = (-0.2475954665,-0.1372250816)
+ fifjEffSum[13][0] = (0,0) fifjEffSum[13][1] = (0,0) fifjEffSum[13][2] = (0,0) fifjEffSum[13][3] = (0,0) fifjEffSum[13][4] = (0,0) fifjEffSum[13][5] = (0,0) fifjEffSum[13][6] = (0,0) fifjEffSum[13][7] = (0,0) fifjEffSum[13][8] = (0,0) fifjEffSum[13][9] = (0,0) fifjEffSum[13][10] = (0,0) fifjEffSum[13][11] = (0,0) fifjEffSum[13][12] = (0,0) fifjEffSum[13][13] = (21.83628798,0) fifjEffSum[13][14] = (5.550383459,8.024853762)
+ fifjEffSum[14][0] = (0,0) fifjEffSum[14][1] = (0,0) fifjEffSum[14][2] = (0,0) fifjEffSum[14][3] = (0,0) fifjEffSum[14][4] = (0,0) fifjEffSum[14][5] = (0,0) fifjEffSum[14][6] = (0,0) fifjEffSum[14][7] = (0,0) fifjEffSum[14][8] = (0,0) fifjEffSum[14][9] = (0,0) fifjEffSum[14][10] = (0,0) fifjEffSum[14][11] = (0,0) fifjEffSum[14][12] = (0,0) fifjEffSum[14][13] = (0,0) fifjEffSum[14][14] = (9.574502953,0)
+ fifjSum[0][0] = (42639.00917,0) fifjSum[0][1] = (40450.8026,1245.045832) fifjSum[0][2] = (-1.637352389e-12,-1.701425443e-11) fifjSum[0][3] = (-5.820611473e-15,1.043220432e-14) fifjSum[0][4] = (-3.86509199e-16,-2.693837609e-14) fifjSum[0][5] = (9.816360132e-17,-1.278976893e-14) fifjSum[0][6] = (2.149754483e-14,-1.130176304e-14) fifjSum[0][7] = (8.035129573e-13,-9.219959114e-12) fifjSum[0][8] = (419.0852905,5318.813993) fifjSum[0][9] = (1569.718469,-202.488383) fifjSum[0][10] = (7728.320569,-1096.757432) fifjSum[0][11] = (12.77710267,-68.63719413) fifjSum[0][12] = (-48.48602963,371.0984292) fifjSum[0][13] = (1303.357882,489.1015358) fifjSum[0][14] = (1048.489116,696.0823185)
+ fifjSum[1][0] = (0,0) fifjSum[1][1] = (39640.99509,0) fifjSum[1][2] = (1.596107992e-13,-1.683672751e-11) fifjSum[1][3] = (-3.800938933e-15,8.807457418e-15) fifjSum[1][4] = (-1.02843775e-14,-4.184614383e-14) fifjSum[1][5] = (1.634174683e-15,-2.187879288e-14) fifjSum[1][6] = (9.655931492e-15,-1.166701849e-14) fifjSum[1][7] = (1.651572594e-12,-9.17857056e-12) fifjSum[1][8] = (441.0421775,5340.477011) fifjSum[1][9] = (1568.531703,-207.8822237) fifjSum[1][10] = (7723.621358,-1144.809255) fifjSum[1][11] = (12.61146897,-68.56281254) fifjSum[1][12] = (-47.45315906,370.9217892) fifjSum[1][13] = (1304.757558,484.0775503) fifjSum[1][14] = (1050.627127,691.9321679)
+ fifjSum[2][0] = (0,0) fifjSum[2][1] = (0,0) fifjSum[2][2] = (717977.7471,0) fifjSum[2][3] = (6.845696271e-05,-0.0001082049038) fifjSum[2][4] = (-0.0006427884575,0.0007457545833) fifjSum[2][5] = (-0.001389853555,-0.0005137772294) fifjSum[2][6] = (-0.0007858368794,-0.001361620214) fifjSum[2][7] = (163784.5786,381174.3906) fifjSum[2][8] = (-1.408855833e-11,-1.094153716e-11) fifjSum[2][9] = (6636.141645,-1291.952878) fifjSum[2][10] = (36775.32306,-3049.646747) fifjSum[2][11] = (247.2078143,-229.5279252) fifjSum[2][12] = (247.8755038,1634.501174) fifjSum[2][13] = (4296.033877,3684.979106) fifjSum[2][14] = (2152.994991,4579.103151)
+ fifjSum[3][0] = (0,0) fifjSum[3][1] = (0,0) fifjSum[3][2] = (0,0) fifjSum[3][3] = (772.1075526,0) fifjSum[3][4] = (-6.303392918,-10.5675911) fifjSum[3][5] = (-5.984094874,-12.50908933) fifjSum[3][6] = (-5.994242799,-13.38903519) fifjSum[3][7] = (5.836353562e-05,0.0001069768564) fifjSum[3][8] = (-6.512225167e-15,-5.864897382e-15) fifjSum[3][9] = (-98.65476806,-42.94587067) fifjSum[3][10] = (-280.8311591,314.4337666) fifjSum[3][11] = (-3.510059742,0.7111725902) fifjSum[3][12] = (16.00660296,8.629419951) fifjSum[3][13] = (-45.71335979,-48.66799787) fifjSum[3][14] = (-31.52172061,-44.15984398)
+ fifjSum[4][0] = (0,0) fifjSum[4][1] = (0,0) fifjSum[4][2] = (0,0) fifjSum[4][3] = (0,0) fifjSum[4][4] = (197.6322916,0) fifjSum[4][5] = (65.74091353,70.40014021) fifjSum[4][6] = (32.84244272,83.5707322) fifjSum[4][7] = (-0.0001797488373,-0.0005674042208) fifjSum[4][8] = (-2.401451526e-15,-1.969150859e-14) fifjSum[4][9] = (67.96516864,-66.73334467) fifjSum[4][10] = (231.2043052,-415.9657349) fifjSum[4][11] = (-4.389215146,-2.904108438) fifjSum[4][12] = (1.674652722,19.85029413) fifjSum[4][13] = (70.14299096,-35.00619435) fifjSum[4][14] = (65.60355998,-22.81820395)
+ fifjSum[5][0] = (0,0) fifjSum[5][1] = (0,0) fifjSum[5][2] = (0,0) fifjSum[5][3] = (0,0) fifjSum[5][4] = (0,0) fifjSum[5][5] = (146.9455531,0) fifjSum[5][6] = (161.9234849,107.2111662) fifjSum[5][7] = (-0.001086300046,-0.0009257128967) fifjSum[5][8] = (-7.128541789e-15,-1.516340656e-15) fifjSum[5][9] = (55.00690528,-89.95577624) fifjSum[5][10] = (81.35847383,-522.1702246) fifjSum[5][11] = (-4.854254557,-2.199532259) fifjSum[5][12] = (4.863831594,20.18979149) fifjSum[5][13] = (63.96263337,-55.52734574) fifjSum[5][14] = (61.96852691,-41.50176729)
+ fifjSum[6][0] = (0,0) fifjSum[6][1] = (0,0) fifjSum[6][2] = (0,0) fifjSum[6][3] = (0,0) fifjSum[6][4] = (0,0) fifjSum[6][5] = (0,0) fifjSum[6][6] = (460.8459235,0) fifjSum[6][7] = (-0.003892979974,-0.0009286163018) fifjSum[6][8] = (-4.164554574e-14,1.344565418e-14) fifjSum[6][9] = (47.04221046,-103.0147895) fifjSum[6][10] = (-18.72852614,-584.615654) fifjSum[6][11] = (-5.040389229,-1.823296078) fifjSum[6][12] = (6.570882216,20.29457983) fifjSum[6][13] = (59.57208205,-66.93291759) fifjSum[6][14] = (58.93161081,-51.93298178)
+ fifjSum[7][0] = (0,0) fifjSum[7][1] = (0,0) fifjSum[7][2] = (0,0) fifjSum[7][3] = (0,0) fifjSum[7][4] = (0,0) fifjSum[7][5] = (0,0) fifjSum[7][6] = (0,0) fifjSum[7][7] = (1435400.36,0) fifjSum[7][8] = (-2.220890563e-11,6.256842558e-12) fifjSum[7][9] = (5905.957457,-2366.850439) fifjSum[7][10] = (32999.148,-11772.9346) fifjSum[7][11] = (193.7037041,-216.9131833) fifjSum[7][12] = (402.2480766,1410.136512) fifjSum[7][13] = (4428.482781,2604.909166) fifjSum[7][14] = (2615.847465,3704.064207)
+ fifjSum[8][0] = (0,0) fifjSum[8][1] = (0,0) fifjSum[8][2] = (0,0) fifjSum[8][3] = (0,0) fifjSum[8][4] = (0,0) fifjSum[8][5] = (0,0) fifjSum[8][6] = (0,0) fifjSum[8][7] = (0,0) fifjSum[8][8] = (6065.292583,0) fifjSum[8][9] = (760.0958812,-669.2901276) fifjSum[8][10] = (2171.537503,-4187.110812) fifjSum[8][11] = (-4.620758787,-37.22657743) fifjSum[8][12] = (59.98161561,208.1197823) fifjSum[8][13] = (824.48072,-169.9221387) fifjSum[8][14] = (743.9050939,20.94450147)
+ fifjSum[9][0] = (0,0) fifjSum[9][1] = (0,0) fifjSum[9][2] = (0,0) fifjSum[9][3] = (0,0) fifjSum[9][4] = (0,0) fifjSum[9][5] = (0,0) fifjSum[9][6] = (0,0) fifjSum[9][7] = (0,0) fifjSum[9][8] = (0,0) fifjSum[9][9] = (33602.84881,0) fifjSum[9][10] = (0.0005234197416,0.001017786411) fifjSum[9][11] = (9.050780478e-06,-9.155592428e-06) fifjSum[9][12] = (0.006665214999,-0.01959119461) fifjSum[9][13] = (-277.8320097,3393.171179) fifjSum[9][14] = (-491.8813385,2008.571181)
+ fifjSum[10][0] = (0,0) fifjSum[10][1] = (0,0) fifjSum[10][2] = (0,0) fifjSum[10][3] = (0,0) fifjSum[10][4] = (0,0) fifjSum[10][5] = (0,0) fifjSum[10][6] = (0,0) fifjSum[10][7] = (0,0) fifjSum[10][8] = (0,0) fifjSum[10][9] = (0,0) fifjSum[10][10] = (937729.9594,0) fifjSum[10][11] = (0.00048791157,0.0008389043422) fifjSum[10][12] = (0.02866440415,-0.1156151112) fifjSum[10][13] = (0.004495874318,-0.0001212815037) fifjSum[10][14] = (0.0005704644376,0.002304502416)
+ fifjSum[11][0] = (0,0) fifjSum[11][1] = (0,0) fifjSum[11][2] = (0,0) fifjSum[11][3] = (0,0) fifjSum[11][4] = (0,0) fifjSum[11][5] = (0,0) fifjSum[11][6] = (0,0) fifjSum[11][7] = (0,0) fifjSum[11][8] = (0,0) fifjSum[11][9] = (0,0) fifjSum[11][10] = (0,0) fifjSum[11][11] = (94.33184744,0) fifjSum[11][12] = (-57.67014702,37.09467978) fifjSum[11][13] = (-1.500567829e-05,2.572093236e-05) fifjSum[11][14] = (-1.890030002e-05,-5.346869025e-06)
+ fifjSum[12][0] = (0,0) fifjSum[12][1] = (0,0) fifjSum[12][2] = (0,0) fifjSum[12][3] = (0,0) fifjSum[12][4] = (0,0) fifjSum[12][5] = (0,0) fifjSum[12][6] = (0,0) fifjSum[12][7] = (0,0) fifjSum[12][8] = (0,0) fifjSum[12][9] = (0,0) fifjSum[12][10] = (0,0) fifjSum[12][11] = (0,0) fifjSum[12][12] = (246.9412995,0) fifjSum[12][13] = (0.002989854675,0.04063689183) fifjSum[12][14] = (-0.05454182918,0.0610363688)
+ fifjSum[13][0] = (0,0) fifjSum[13][1] = (0,0) fifjSum[13][2] = (0,0) fifjSum[13][3] = (0,0) fifjSum[13][4] = (0,0) fifjSum[13][5] = (0,0) fifjSum[13][6] = (0,0) fifjSum[13][7] = (0,0) fifjSum[13][8] = (0,0) fifjSum[13][9] = (0,0) fifjSum[13][10] = (0,0) fifjSum[13][11] = (0,0) fifjSum[13][12] = (0,0) fifjSum[13][13] = (8082.802741,0) fifjSum[13][14] = (2438.327,3421.914885)
+ fifjSum[14][0] = (0,0) fifjSum[14][1] = (0,0) fifjSum[14][2] = (0,0) fifjSum[14][3] = (0,0) fifjSum[14][4] = (0,0) fifjSum[14][5] = (0,0) fifjSum[14][6] = (0,0) fifjSum[14][7] = (0,0) fifjSum[14][8] = (0,0) fifjSum[14][9] = (0,0) fifjSum[14][10] = (0,0) fifjSum[14][11] = (0,0) fifjSum[14][12] = (0,0) fifjSum[14][13] = (0,0) fifjSum[14][14] = (4902.790565,0)
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,0) = 2.224714235e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,1) = 6.614265839e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,2) = 1.996955389e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,3) = 8.020920849e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,4) = 6.266210869e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,5) = 1.645513739e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,6) = -4.011940874e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,7) = 7.24349597e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,8) = -0.0001361860093
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,9) = 2.439686844e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,10) = 3.428361301e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,11) = 0.0001103373741
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,12) = -0.0001107270717
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,13) = -2.476380453e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,14) = 5.578968832e-06
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,1) = 7.233667056e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,2) = 8.610693049e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,3) = 6.181026682e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,4) = -1.49417746e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,5) = 7.621318684e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,6) = -5.004564329e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,7) = -1.209277501e-20
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,8) = 0.0003981268485
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,9) = 4.079077439e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,10) = 6.001656296e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,11) = 0.0001958507347
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,12) = -5.303503805e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,13) = -0.0001106507377
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,14) = 9.039307377e-07
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,2) = 0.5768215124
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,3) = 3.659312924e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,4) = 1.357385595e-08
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,5) = -1.157791086e-08
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,6) = 7.563004346e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,7) = -0.003036960036
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,8) = 3.462367151e-17
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,9) = -0.004012592818
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,10) = -0.005903132118
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,11) = -0.01119586716
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,12) = 0.01721770941
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,13) = -0.002618454995
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,14) = -0.001517007512
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,3) = 0.2035161414
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,4) = 0.001270661502
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,5) = -0.001946577661
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,6) = -4.53518024e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,7) = -2.327408432e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,8) = 6.884567024e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,9) = 0.001182662707
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,10) = 0.0005283460027
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,11) = 0.002997943663
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,12) = -0.005194144065
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,13) = -0.001240922941
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,14) = 0.0001014578901
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,4) = 0.01174661551
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,5) = -0.005344442341
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,6) = -0.0005165145104
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,7) = -5.083212525e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,8) = -4.302043699e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,9) = 0.0001314751703
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,10) = 5.223198106e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,11) = -0.0004272830407
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,12) = 0.0006876872554
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,13) = -0.00138864178
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,14) = -0.0001602407184
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,5) = 0.002857903263
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,6) = -0.004838689481
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,7) = 8.516129045e-12
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,8) = 6.083734374e-20
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,9) = -0.0003128138607
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,10) = -0.000415548496
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,11) = -0.001493923138
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,12) = 0.001564264235
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,13) = 0.0005827024538
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,14) = -1.399792295e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,6) = 0.008164515562
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,7) = 1.942027186e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,8) = 4.896395554e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,9) = 0.0001209687614
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,10) = 0.0003275427604
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,11) = 0.0009902522015
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,12) = -0.001195444889
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,13) = 0.0005067266265
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,14) = 0.0001122019415
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,7) = 0.007325737685
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,8) = -8.58823498e-18
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,9) = 0.0002913646734
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,10) = 0.0004781748891
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,11) = 0.001227479708
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,12) = -0.0003213987377
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,13) = -0.0002711355222
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,14) = 8.099677175e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,8) = 0.04194578696
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,9) = 0.001248593323
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,10) = 0.001131183113
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,11) = 0.006353799858
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,12) = -0.0001855765764
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,13) = -0.004952547369
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,14) = -0.0001668450002
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,9) = 0.003850548936
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,10) = 2.814889325e-11
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,11) = 2.579531474e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,12) = 8.961564779e-08
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,13) = 0.001911710233
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,14) = 0.0002403514113
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,10) = 0.008894823671
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,11) = -4.503158116e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,12) = 1.15503827e-07
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,13) = -8.995189433e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,14) = 6.855719582e-11
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (11,11) = 0.1168472018
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (11,12) = -0.0008216124145
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (11,13) = -4.034785375e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (11,14) = 2.277746332e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (12,12) = 0.02383030552
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (12,13) = 2.113751073e-07
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (12,14) = 2.731347501e-07
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (13,13) = 0.0117997798
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (13,14) = -0.0001428375012
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (14,14) = 0.0001447950424
+INFO in LauIsobarDynamics::initialise : Initial efficiency = 0.003035982552
+INFO in LauIsobarDynamics::initialise : Initial DPRate = 11.06396405
+INFO in LauIsobarDynamics::initSummary : We are going to do a DP with B+ going to pi+ pi- K+
+                                       : For the following resonance combinations:
+                                       : In tracks 2 and 3:
+                                       :   A9: K*0(892) to pi-, K+
+                                       :   A10: K*0_2(1430) to pi-, K+
+                                       :   A11: K*0_0(1430) to pi-, K+
+                                       :   A12: LASSNR0 to pi-, K+
+                                       :   A13: K*0(1410) to pi-, K+
+                                       :   A14: K*0(1680) to pi-, K+
+                                       : In tracks 1 and 3:
+                                       : In tracks 1 and 2:
+                                       :   A0: rho0(770) to pi+, pi-
+                                       :   A1: rho0(770)_COPY to pi+, pi-
+                                       :   A2: f_2(1270) to pi+, pi-
+                                       :   A3: chi_c0 to pi+, pi-
+                                       :   A4: f_0(980) to pi+, pi-
+                                       :   A5: f_0(1370) to pi+, pi-
+                                       :   A6: f_0(1500) to pi+, pi-
+                                       :   A7: f'_2(1525) to pi+, pi-
+                                       :   A8: rho0(1450) to pi+, pi-
+
+INFO in LauIsobarDynamics::initialise : Starting special run to generate the integrals for normalising the PDF...
+INFO in LauIsobarDynamics::calcDPNormalisationScheme : Found narrow resonance: rho0(770), mass = 0.78265, width = 0.00849, pair int = 3
+INFO in LauIsobarDynamics::calcDPNormalisationScheme : Found narrow resonance: rho0(770)_COPY, mass = 0.78265, width = 0.00849, pair int = 3
+INFO in LauIsobarDynamics::calcDPNormalisationScheme : Found narrow resonance: chi_c0, mass = 3.41514, width = 0.0185583, pair int = 3
+INFO in LauIsobarDynamics::calcDPNormalisationScheme : One or more narrow resonances found in m12, integrating over whole square Dalitz plot with bin widths of 0.001 in mPrime and 0.001 in thetaPrime...
+INFO in LauDPPartialIntegralInfo constructor : nmPrimePoints = 1000, nthPrimePoints = 1000
+                                             : mPrimeBinWidth = 0.001, thPrimeBinWidth = 0.001
+                                             : Integrating over mPrime = 0 to 1, thPrime = 0 to 1
+                                             : totmPrimeWeight = 1.99999701, totthPrimeWeight = 1.99999701
+INFO in LauIsobarDynamics::writeIntegralsFile : Writing integral output to integrals file normal_JVeto_GLASS_integ_pos.dat
+INFO in LauIsobarDynamics::initialise : Summary of the integrals:
+ fNorm[0] = 0.004842799043
+ fSqSum[0] = 42639.00917
+ fSqEffSum[0] = 115.7768686
+ fNorm[1] = 0.005022589982
+ fSqSum[1] = 39640.99509
+ fSqEffSum[1] = 107.3943551
+ fNorm[2] = 0.00118016983
+ fSqSum[2] = 717977.7471
+ fSqEffSum[2] = 1937.24714
+ fNorm[3] = 0.03598828074
+ fSqSum[3] = 772.1075526
+ fSqEffSum[3] = 2.889594265
+ fNorm[4] = 0.07113298715
+ fSqSum[4] = 197.6322916
+ fSqEffSum[4] = 0.669288637
+ fNorm[5] = 0.08249388863
+ fSqSum[5] = 146.9455531
+ fSqEffSum[5] = 0.4658034152
+ fNorm[6] = 0.04658242838
+ fSqSum[6] = 460.8459235
+ fSqEffSum[6] = 1.48276388
+ fNorm[7] = 0.0008346674447
+ fSqSum[7] = 1435400.36
+ fSqEffSum[7] = 3967.696185
+ fNorm[8] = 0.012840269
+ fSqSum[8] = 6065.292583
+ fSqEffSum[8] = 14.5649252
+ fNorm[9] = 0.005455215997
+ fSqSum[9] = 33602.84881
+ fSqEffSum[9] = 98.00588009
+ fNorm[10] = 0.001032668915
+ fSqSum[10] = 937729.9594
+ fSqEffSum[10] = 2777.358907
+ fNorm[11] = 0.1029605444
+ fSqSum[11] = 94.33184744
+ fSqEffSum[11] = 0.3014007799
+ fNorm[12] = 0.06363603843
+ fSqSum[12] = 246.9412995
+ fSqEffSum[12] = 0.7518444981
+ fNorm[13] = 0.01112292503
+ fSqSum[13] = 8082.802741
+ fSqEffSum[13] = 22.55997423
+ fNorm[14] = 0.01428164814
+ fSqSum[14] = 4902.790565
+ fSqEffSum[14] = 9.918157763
+ fifjEffSum[0][0] = (115.7768686,0) fifjEffSum[0][1] = (109.7250642,3.357190934) fifjEffSum[0][2] = (2.011223766,-12.09733593) fifjEffSum[0][3] = (0.01964264923,-0.02236609383) fifjEffSum[0][4] = (-0.1538308525,-0.3918830786) fifjEffSum[0][5] = (-0.009400503676,-0.2359723596) fifjEffSum[0][6] = (0.06883864619,-0.2022389625) fifjEffSum[0][7] = (3.197038316,-6.057742496) fifjEffSum[0][8] = (1.016009765,13.51217681) fifjEffSum[0][9] = (2.358291636,-0.8318357192) fifjEffSum[0][10] = (14.73460868,-8.489678679) fifjEffSum[0][11] = (0.07440132289,-0.124359416) fifjEffSum[0][12] = (-0.2329858778,0.7975080002) fifjEffSum[0][13] = (2.666884431,0.4010054384) fifjEffSum[0][14] = (1.822213722,0.6592675762)
+ fifjEffSum[1][0] = (0,0) fifjEffSum[1][1] = (107.3943551,0) fifjEffSum[1][2] = (1.97296703,-12.18056057) fifjEffSum[1][3] = (0.01959691934,-0.02240123328) fifjEffSum[1][4] = (-0.1582169621,-0.3961490897) fifjEffSum[1][5] = (-0.01028161444,-0.2368110883) fifjEffSum[1][6] = (0.06858798347,-0.2030133652) fifjEffSum[1][7] = (3.189729141,-6.088342146) fifjEffSum[1][8] = (1.071157213,13.55994539) fifjEffSum[1][9] = (2.352875421,-0.8366180271) fifjEffSum[1][10] = (14.69485029,-8.593443938) fifjEffSum[1][11] = (0.07414125439,-0.124046692) fifjEffSum[1][12] = (-0.2318470112,0.7973631498) fifjEffSum[1][13] = (2.665342786,0.3905487851) fifjEffSum[1][14] = (1.822823089,0.6525959099)
+ fifjEffSum[2][0] = (0,0) fifjEffSum[2][1] = (0,0) fifjEffSum[2][2] = (1937.24714,0) fifjEffSum[2][3] = (0.1207631506,-0.3017777268) fifjEffSum[2][4] = (-2.991984557,4.329248254) fifjEffSum[2][5] = (-6.795921642,-2.633980046) fifjEffSum[2][6] = (-3.009156733,-7.258620937) fifjEffSum[2][7] = (397.3056589,1069.318661) fifjEffSum[2][8] = (-7.571020996,-5.236954303) fifjEffSum[2][9] = (10.17879707,1.273164122) fifjEffSum[2][10] = (83.11309587,-5.73315052) fifjEffSum[2][11] = (0.9476376651,-0.4541874408) fifjEffSum[2][12] = (-0.466190962,3.961267804) fifjEffSum[2][13] = (6.823512821,10.19271087) fifjEffSum[2][14] = (1.105459992,12.16987101)
+ fifjEffSum[3][0] = (0,0) fifjEffSum[3][1] = (0,0) fifjEffSum[3][2] = (0,0) fifjEffSum[3][3] = (2.889594265,0) fifjEffSum[3][4] = (-0.01648701641,-0.03659442877) fifjEffSum[3][5] = (-0.01373844736,-0.04219342223) fifjEffSum[3][6] = (-0.011176712,-0.04560619061) fifjEffSum[3][7] = (-0.01151055587,0.2826558191) fifjEffSum[3][8] = (0.003607278233,0.0168231079) fifjEffSum[3][9] = (-0.3393765679,-0.1537534963) fifjEffSum[3][10] = (-1.291886713,0.7420762314) fifjEffSum[3][11] = (-0.008496248441,-0.002971877778) fifjEffSum[3][12] = (0.05204373069,0.04590958767) fifjEffSum[3][13] = (-0.1186150034,-0.1478038542) fifjEffSum[3][14] = (-0.07279136903,-0.07240835874)
+ fifjEffSum[4][0] = (0,0) fifjEffSum[4][1] = (0,0) fifjEffSum[4][2] = (0,0) fifjEffSum[4][3] = (0,0) fifjEffSum[4][4] = (0.669288637,0) fifjEffSum[4][5] = (0.208629727,0.2354809139) fifjEffSum[4][6] = (0.08837697507,0.2848670325) fifjEffSum[4][7] = (-0.1100003775,-3.154166528) fifjEffSum[4][8] = (-0.0608399193,-0.1221980965) fifjEffSum[4][9] = (0.08733176589,-0.1818049028) fifjEffSum[4][10] = (0.1197602767,-1.4185647) fifjEffSum[4][11] = (-0.009480906804,-0.002919353239) fifjEffSum[4][12] = (-0.006455606939,0.04677166251) fifjEffSum[4][13] = (0.1149711072,-0.1516165524) fifjEffSum[4][14] = (0.08791049766,-0.1364780694)
+ fifjEffSum[5][0] = (0,0) fifjEffSum[5][1] = (0,0) fifjEffSum[5][2] = (0,0) fifjEffSum[5][3] = (0,0) fifjEffSum[5][4] = (0,0) fifjEffSum[5][5] = (0.4658034152,0) fifjEffSum[5][6] = (0.5015286313,0.3685413521) fifjEffSum[5][7] = (-4.395348718,-5.127881785) fifjEffSum[5][8] = (-0.1887669051,-0.06000582768) fifjEffSum[5][9] = (0.04980136367,-0.2195508887) fifjEffSum[5][10] = (-0.3150251794,-1.509374448) fifjEffSum[5][11] = (-0.008250887108,-0.000715901644) fifjEffSum[5][12] = (-0.001078470284,0.05034181813) fifjEffSum[5][13] = (0.07364143314,-0.1829600698) fifjEffSum[5][14] = (0.04577740697,-0.1626805637)
+ fifjEffSum[6][0] = (0,0) fifjEffSum[6][1] = (0,0) fifjEffSum[6][2] = (0,0) fifjEffSum[6][3] = (0,0) fifjEffSum[6][4] = (0,0) fifjEffSum[6][5] = (0,0) fifjEffSum[6][6] = (1.48276388,0) fifjEffSum[6][7] = (-17.99697688,-4.863067924) fifjEffSum[6][8] = (-0.282068426,0.07557472008) fifjEffSum[6][9] = (0.01706272137,-0.2505116914) fifjEffSum[6][10] = (-0.580995259,-1.582059053) fifjEffSum[6][11] = (-0.007103761739,0.00136023548) fifjEffSum[6][12] = (0.003195818057,0.0518008779) fifjEffSum[6][13] = (0.04264068557,-0.2110200428) fifjEffSum[6][14] = (0.01223566049,-0.1864262908)
+ fifjEffSum[7][0] = (0,0) fifjEffSum[7][1] = (0,0) fifjEffSum[7][2] = (0,0) fifjEffSum[7][3] = (0,0) fifjEffSum[7][4] = (0,0) fifjEffSum[7][5] = (0,0) fifjEffSum[7][6] = (0,0) fifjEffSum[7][7] = (3967.696185,0) fifjEffSum[7][8] = (-9.158893752,3.831218155) fifjEffSum[7][9] = (11.21484957,-1.541913716) fifjEffSum[7][10] = (87.30937047,-26.38894853) fifjEffSum[7][11] = (0.7307791069,-0.5009069728) fifjEffSum[7][12] = (0.1108476783,3.594862664) fifjEffSum[7][13] = (9.430613988,8.089428157) fifjEffSum[7][14] = (4.419451622,10.88521693)
+ fifjEffSum[8][0] = (0,0) fifjEffSum[8][1] = (0,0) fifjEffSum[8][2] = (0,0) fifjEffSum[8][3] = (0,0) fifjEffSum[8][4] = (0,0) fifjEffSum[8][5] = (0,0) fifjEffSum[8][6] = (0,0) fifjEffSum[8][7] = (0,0) fifjEffSum[8][8] = (14.5649252,0) fifjEffSum[8][9] = (1.283901023,-1.204292421) fifjEffSum[8][10] = (2.498010776,-11.04829778) fifjEffSum[8][11] = (0.04546442074,-0.06888746529) fifjEffSum[8][12] = (0.002787799605,0.5309789131) fifjEffSum[8][13] = (1.520948273,-0.4028946254) fifjEffSum[8][14] = (1.142988035,-0.02843901996)
+ fifjEffSum[9][0] = (0,0) fifjEffSum[9][1] = (0,0) fifjEffSum[9][2] = (0,0) fifjEffSum[9][3] = (0,0) fifjEffSum[9][4] = (0,0) fifjEffSum[9][5] = (0,0) fifjEffSum[9][6] = (0,0) fifjEffSum[9][7] = (0,0) fifjEffSum[9][8] = (0,0) fifjEffSum[9][9] = (98.00588009,0) fifjEffSum[9][10] = (5.864713367,-8.990394276) fifjEffSum[9][11] = (-0.2455873667,-0.02586866137) fifjEffSum[9][12] = (-0.1190424418,-0.7259823254) fifjEffSum[9][13] = (-1.449296415,9.81286544) fifjEffSum[9][14] = (-1.971530115,4.893634544)
+ fifjEffSum[10][0] = (0,0) fifjEffSum[10][1] = (0,0) fifjEffSum[10][2] = (0,0) fifjEffSum[10][3] = (0,0) fifjEffSum[10][4] = (0,0) fifjEffSum[10][5] = (0,0) fifjEffSum[10][6] = (0,0) fifjEffSum[10][7] = (0,0) fifjEffSum[10][8] = (0,0) fifjEffSum[10][9] = (0,0) fifjEffSum[10][10] = (2777.358907,0) fifjEffSum[10][11] = (1.93877828,3.298116634) fifjEffSum[10][12] = (-2.342563035,-1.209592441) fifjEffSum[10][13] = (-28.84314482,7.174741829) fifjEffSum[10][14] = (-4.917648082,-6.982300798)
+ fifjEffSum[11][0] = (0,0) fifjEffSum[11][1] = (0,0) fifjEffSum[11][2] = (0,0) fifjEffSum[11][3] = (0,0) fifjEffSum[11][4] = (0,0) fifjEffSum[11][5] = (0,0) fifjEffSum[11][6] = (0,0) fifjEffSum[11][7] = (0,0) fifjEffSum[11][8] = (0,0) fifjEffSum[11][9] = (0,0) fifjEffSum[11][10] = (0,0) fifjEffSum[11][11] = (0.3014007799,0) fifjEffSum[11][12] = (-0.1789648269,0.1446911224) fifjEffSum[11][13] = (0.1604792538,-0.4020388758) fifjEffSum[11][14] = (0.154399804,-0.01044461092)
+ fifjEffSum[12][0] = (0,0) fifjEffSum[12][1] = (0,0) fifjEffSum[12][2] = (0,0) fifjEffSum[12][3] = (0,0) fifjEffSum[12][4] = (0,0) fifjEffSum[12][5] = (0,0) fifjEffSum[12][6] = (0,0) fifjEffSum[12][7] = (0,0) fifjEffSum[12][8] = (0,0) fifjEffSum[12][9] = (0,0) fifjEffSum[12][10] = (0,0) fifjEffSum[12][11] = (0,0) fifjEffSum[12][12] = (0.7518444981,0) fifjEffSum[12][13] = (-0.4791711118,0.07420594461) fifjEffSum[12][14] = (-0.2593087209,-0.1436080218)
+ fifjEffSum[13][0] = (0,0) fifjEffSum[13][1] = (0,0) fifjEffSum[13][2] = (0,0) fifjEffSum[13][3] = (0,0) fifjEffSum[13][4] = (0,0) fifjEffSum[13][5] = (0,0) fifjEffSum[13][6] = (0,0) fifjEffSum[13][7] = (0,0) fifjEffSum[13][8] = (0,0) fifjEffSum[13][9] = (0,0) fifjEffSum[13][10] = (0,0) fifjEffSum[13][11] = (0,0) fifjEffSum[13][12] = (0,0) fifjEffSum[13][13] = (22.55997423,0) fifjEffSum[13][14] = (5.702575762,8.336169104)
+ fifjEffSum[14][0] = (0,0) fifjEffSum[14][1] = (0,0) fifjEffSum[14][2] = (0,0) fifjEffSum[14][3] = (0,0) fifjEffSum[14][4] = (0,0) fifjEffSum[14][5] = (0,0) fifjEffSum[14][6] = (0,0) fifjEffSum[14][7] = (0,0) fifjEffSum[14][8] = (0,0) fifjEffSum[14][9] = (0,0) fifjEffSum[14][10] = (0,0) fifjEffSum[14][11] = (0,0) fifjEffSum[14][12] = (0,0) fifjEffSum[14][13] = (0,0) fifjEffSum[14][14] = (9.918157763,0)
+ fifjSum[0][0] = (42639.00917,0) fifjSum[0][1] = (40450.8026,1245.045832) fifjSum[0][2] = (-1.637352389e-12,-1.701425443e-11) fifjSum[0][3] = (-5.820611473e-15,1.043220432e-14) fifjSum[0][4] = (-3.86509199e-16,-2.693837609e-14) fifjSum[0][5] = (9.816360132e-17,-1.278976893e-14) fifjSum[0][6] = (2.149754483e-14,-1.130176304e-14) fifjSum[0][7] = (8.035129573e-13,-9.219959114e-12) fifjSum[0][8] = (419.0852905,5318.813993) fifjSum[0][9] = (1569.718469,-202.488383) fifjSum[0][10] = (7728.320569,-1096.757432) fifjSum[0][11] = (12.77710267,-68.63719413) fifjSum[0][12] = (-48.48602963,371.0984292) fifjSum[0][13] = (1303.357882,489.1015358) fifjSum[0][14] = (1048.489116,696.0823185)
+ fifjSum[1][0] = (0,0) fifjSum[1][1] = (39640.99509,0) fifjSum[1][2] = (1.596107992e-13,-1.683672751e-11) fifjSum[1][3] = (-3.800938933e-15,8.807457418e-15) fifjSum[1][4] = (-1.02843775e-14,-4.184614383e-14) fifjSum[1][5] = (1.634174683e-15,-2.187879288e-14) fifjSum[1][6] = (9.655931492e-15,-1.166701849e-14) fifjSum[1][7] = (1.651572594e-12,-9.17857056e-12) fifjSum[1][8] = (441.0421775,5340.477011) fifjSum[1][9] = (1568.531703,-207.8822237) fifjSum[1][10] = (7723.621358,-1144.809255) fifjSum[1][11] = (12.61146897,-68.56281254) fifjSum[1][12] = (-47.45315906,370.9217892) fifjSum[1][13] = (1304.757558,484.0775503) fifjSum[1][14] = (1050.627127,691.9321679)
+ fifjSum[2][0] = (0,0) fifjSum[2][1] = (0,0) fifjSum[2][2] = (717977.7471,0) fifjSum[2][3] = (6.845696271e-05,-0.0001082049038) fifjSum[2][4] = (-0.0006427884575,0.0007457545833) fifjSum[2][5] = (-0.001389853555,-0.0005137772294) fifjSum[2][6] = (-0.0007858368794,-0.001361620214) fifjSum[2][7] = (163784.5786,381174.3906) fifjSum[2][8] = (-1.408855833e-11,-1.094153716e-11) fifjSum[2][9] = (6636.141645,-1291.952878) fifjSum[2][10] = (36775.32306,-3049.646747) fifjSum[2][11] = (247.2078143,-229.5279252) fifjSum[2][12] = (247.8755038,1634.501174) fifjSum[2][13] = (4296.033877,3684.979106) fifjSum[2][14] = (2152.994991,4579.103151)
+ fifjSum[3][0] = (0,0) fifjSum[3][1] = (0,0) fifjSum[3][2] = (0,0) fifjSum[3][3] = (772.1075526,0) fifjSum[3][4] = (-6.303392918,-10.5675911) fifjSum[3][5] = (-5.984094874,-12.50908933) fifjSum[3][6] = (-5.994242799,-13.38903519) fifjSum[3][7] = (5.836353562e-05,0.0001069768564) fifjSum[3][8] = (-6.512225167e-15,-5.864897382e-15) fifjSum[3][9] = (-98.65476806,-42.94587067) fifjSum[3][10] = (-280.8311591,314.4337666) fifjSum[3][11] = (-3.510059742,0.7111725902) fifjSum[3][12] = (16.00660296,8.629419951) fifjSum[3][13] = (-45.71335979,-48.66799787) fifjSum[3][14] = (-31.52172061,-44.15984398)
+ fifjSum[4][0] = (0,0) fifjSum[4][1] = (0,0) fifjSum[4][2] = (0,0) fifjSum[4][3] = (0,0) fifjSum[4][4] = (197.6322916,0) fifjSum[4][5] = (65.74091353,70.40014021) fifjSum[4][6] = (32.84244272,83.5707322) fifjSum[4][7] = (-0.0001797488373,-0.0005674042208) fifjSum[4][8] = (-2.401451526e-15,-1.969150859e-14) fifjSum[4][9] = (67.96516864,-66.73334467) fifjSum[4][10] = (231.2043052,-415.9657349) fifjSum[4][11] = (-4.389215146,-2.904108438) fifjSum[4][12] = (1.674652722,19.85029413) fifjSum[4][13] = (70.14299096,-35.00619435) fifjSum[4][14] = (65.60355998,-22.81820395)
+ fifjSum[5][0] = (0,0) fifjSum[5][1] = (0,0) fifjSum[5][2] = (0,0) fifjSum[5][3] = (0,0) fifjSum[5][4] = (0,0) fifjSum[5][5] = (146.9455531,0) fifjSum[5][6] = (161.9234849,107.2111662) fifjSum[5][7] = (-0.001086300046,-0.0009257128967) fifjSum[5][8] = (-7.128541789e-15,-1.516340656e-15) fifjSum[5][9] = (55.00690528,-89.95577624) fifjSum[5][10] = (81.35847383,-522.1702246) fifjSum[5][11] = (-4.854254557,-2.199532259) fifjSum[5][12] = (4.863831594,20.18979149) fifjSum[5][13] = (63.96263337,-55.52734574) fifjSum[5][14] = (61.96852691,-41.50176729)
+ fifjSum[6][0] = (0,0) fifjSum[6][1] = (0,0) fifjSum[6][2] = (0,0) fifjSum[6][3] = (0,0) fifjSum[6][4] = (0,0) fifjSum[6][5] = (0,0) fifjSum[6][6] = (460.8459235,0) fifjSum[6][7] = (-0.003892979974,-0.0009286163018) fifjSum[6][8] = (-4.164554574e-14,1.344565418e-14) fifjSum[6][9] = (47.04221046,-103.0147895) fifjSum[6][10] = (-18.72852614,-584.615654) fifjSum[6][11] = (-5.040389229,-1.823296078) fifjSum[6][12] = (6.570882216,20.29457983) fifjSum[6][13] = (59.57208205,-66.93291759) fifjSum[6][14] = (58.93161081,-51.93298178)
+ fifjSum[7][0] = (0,0) fifjSum[7][1] = (0,0) fifjSum[7][2] = (0,0) fifjSum[7][3] = (0,0) fifjSum[7][4] = (0,0) fifjSum[7][5] = (0,0) fifjSum[7][6] = (0,0) fifjSum[7][7] = (1435400.36,0) fifjSum[7][8] = (-2.220890563e-11,6.256842558e-12) fifjSum[7][9] = (5905.957457,-2366.850439) fifjSum[7][10] = (32999.148,-11772.9346) fifjSum[7][11] = (193.7037041,-216.9131833) fifjSum[7][12] = (402.2480766,1410.136512) fifjSum[7][13] = (4428.482781,2604.909166) fifjSum[7][14] = (2615.847465,3704.064207)
+ fifjSum[8][0] = (0,0) fifjSum[8][1] = (0,0) fifjSum[8][2] = (0,0) fifjSum[8][3] = (0,0) fifjSum[8][4] = (0,0) fifjSum[8][5] = (0,0) fifjSum[8][6] = (0,0) fifjSum[8][7] = (0,0) fifjSum[8][8] = (6065.292583,0) fifjSum[8][9] = (760.0958812,-669.2901276) fifjSum[8][10] = (2171.537503,-4187.110812) fifjSum[8][11] = (-4.620758787,-37.22657743) fifjSum[8][12] = (59.98161561,208.1197823) fifjSum[8][13] = (824.48072,-169.9221387) fifjSum[8][14] = (743.9050939,20.94450147)
+ fifjSum[9][0] = (0,0) fifjSum[9][1] = (0,0) fifjSum[9][2] = (0,0) fifjSum[9][3] = (0,0) fifjSum[9][4] = (0,0) fifjSum[9][5] = (0,0) fifjSum[9][6] = (0,0) fifjSum[9][7] = (0,0) fifjSum[9][8] = (0,0) fifjSum[9][9] = (33602.84881,0) fifjSum[9][10] = (0.0005234197416,0.001017786411) fifjSum[9][11] = (9.050780478e-06,-9.155592428e-06) fifjSum[9][12] = (0.006665214999,-0.01959119461) fifjSum[9][13] = (-277.8320097,3393.171179) fifjSum[9][14] = (-491.8813385,2008.571181)
+ fifjSum[10][0] = (0,0) fifjSum[10][1] = (0,0) fifjSum[10][2] = (0,0) fifjSum[10][3] = (0,0) fifjSum[10][4] = (0,0) fifjSum[10][5] = (0,0) fifjSum[10][6] = (0,0) fifjSum[10][7] = (0,0) fifjSum[10][8] = (0,0) fifjSum[10][9] = (0,0) fifjSum[10][10] = (937729.9594,0) fifjSum[10][11] = (0.00048791157,0.0008389043422) fifjSum[10][12] = (0.02866440415,-0.1156151112) fifjSum[10][13] = (0.004495874318,-0.0001212815037) fifjSum[10][14] = (0.0005704644376,0.002304502416)
+ fifjSum[11][0] = (0,0) fifjSum[11][1] = (0,0) fifjSum[11][2] = (0,0) fifjSum[11][3] = (0,0) fifjSum[11][4] = (0,0) fifjSum[11][5] = (0,0) fifjSum[11][6] = (0,0) fifjSum[11][7] = (0,0) fifjSum[11][8] = (0,0) fifjSum[11][9] = (0,0) fifjSum[11][10] = (0,0) fifjSum[11][11] = (94.33184744,0) fifjSum[11][12] = (-57.67014702,37.09467978) fifjSum[11][13] = (-1.500567829e-05,2.572093236e-05) fifjSum[11][14] = (-1.890030002e-05,-5.346869025e-06)
+ fifjSum[12][0] = (0,0) fifjSum[12][1] = (0,0) fifjSum[12][2] = (0,0) fifjSum[12][3] = (0,0) fifjSum[12][4] = (0,0) fifjSum[12][5] = (0,0) fifjSum[12][6] = (0,0) fifjSum[12][7] = (0,0) fifjSum[12][8] = (0,0) fifjSum[12][9] = (0,0) fifjSum[12][10] = (0,0) fifjSum[12][11] = (0,0) fifjSum[12][12] = (246.9412995,0) fifjSum[12][13] = (0.002989854675,0.04063689183) fifjSum[12][14] = (-0.05454182918,0.0610363688)
+ fifjSum[13][0] = (0,0) fifjSum[13][1] = (0,0) fifjSum[13][2] = (0,0) fifjSum[13][3] = (0,0) fifjSum[13][4] = (0,0) fifjSum[13][5] = (0,0) fifjSum[13][6] = (0,0) fifjSum[13][7] = (0,0) fifjSum[13][8] = (0,0) fifjSum[13][9] = (0,0) fifjSum[13][10] = (0,0) fifjSum[13][11] = (0,0) fifjSum[13][12] = (0,0) fifjSum[13][13] = (8082.802741,0) fifjSum[13][14] = (2438.327,3421.914885)
+ fifjSum[14][0] = (0,0) fifjSum[14][1] = (0,0) fifjSum[14][2] = (0,0) fifjSum[14][3] = (0,0) fifjSum[14][4] = (0,0) fifjSum[14][5] = (0,0) fifjSum[14][6] = (0,0) fifjSum[14][7] = (0,0) fifjSum[14][8] = (0,0) fifjSum[14][9] = (0,0) fifjSum[14][10] = (0,0) fifjSum[14][11] = (0,0) fifjSum[14][12] = (0,0) fifjSum[14][13] = (0,0) fifjSum[14][14] = (4902.790565,0)
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,0) = 0.06380190276
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,1) = 0.03143942715
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,2) = 8.009087917e-18
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,3) = 3.902050671e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,4) = -2.738117924e-20
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,5) = 6.272508757e-20
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,6) = -1.066459126e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,7) = 3.631245632e-18
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,8) = 0.02193408363
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,9) = 0.001844276303
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,10) = 0.00159867044
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,11) = 0.003472300001
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,12) = -0.002181703002
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,13) = 0.001773200752
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (0,14) = -0.0008807219829
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,1) = 0.01359190894
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,2) = 1.300763626e-17
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,3) = 9.610036358e-21
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,4) = -1.054087288e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,5) = 4.57663858e-20
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,6) = -2.551691275e-20
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,7) = 1.343865056e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,8) = 0.01084670059
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,9) = 0.001035188233
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,10) = 0.0004562211548
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,11) = 0.002774757426
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,12) = -0.0007812499211
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,13) = -0.0009886217733
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (1,14) = -0.0008274354722
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,2) = 0.3831522761
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,3) = 2.699841946e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,4) = 1.963154086e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,5) = -3.42692194e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,6) = 3.018474824e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,7) = 0.06949603677
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,8) = 4.966991511e-17
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,9) = -0.004314112881
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,10) = -0.004356144892
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,11) = 0.002788810088
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,12) = 0.005861454067
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,13) = -0.00821691963
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (2,14) = -0.0007511545051
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,3) = 0.1688614438
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,4) = 0.0007518250172
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,5) = -0.0006398117818
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,6) = -7.42902517e-06
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,7) = -1.885176764e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,8) = 3.243432325e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,9) = 0.001598651516
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,10) = 0.000301532083
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,11) = 0.0002559628658
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,12) = -4.517077261e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,13) = 0.0006725106967
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (3,14) = -0.0006388658634
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,4) = 0.0008909184463
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,5) = -0.0008397625721
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,6) = 0.0005953990283
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,7) = 3.339932106e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,8) = -1.290820109e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,9) = 0.0002358570594
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,10) = 0.0001295201559
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,11) = 0.0007588800125
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,12) = -0.0002028736447
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,13) = -7.768554189e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (4,14) = -0.0001586354727
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,5) = 0.0006590566635
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,6) = -0.001661920886
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,7) = -1.135704371e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,8) = 5.279452593e-20
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,9) = -0.0001446820596
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,10) = -0.0001875151675
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,11) = -0.0005062541251
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,12) = 9.698684225e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,13) = -0.0002524945736
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (5,14) = 7.882066533e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,6) = 0.002032910934
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,7) = 3.339415918e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,8) = -2.419980649e-19
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,9) = -4.526466571e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,10) = 0.0001587923866
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,11) = -4.829532511e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,12) = 6.79722378e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,13) = 0.000444494939
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (6,14) = 4.953893201e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,7) = 0.0568063471
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,8) = 9.017587926e-18
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,9) = 0.001336214221
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,10) = 0.0006188955069
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,11) = 0.003193042867
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,12) = -0.0007207060134
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,13) = -0.0005705236639
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (7,14) = -0.0008621512154
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,8) = 0.02253648301
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,9) = 0.001205997605
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,10) = 0.001519868294
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,11) = -0.0001574129149
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,12) = -0.001437320277
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,13) = 0.002981792968
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (8,14) = -0.0001786012029
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,9) = 0.01176131174
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,10) = 9.881728607e-11
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,11) = 3.746570324e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,12) = 5.620447202e-08
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,13) = 0.004032792362
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (9,14) = -9.83237903e-05
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,10) = 0.006582326553
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,11) = -5.526974326e-09
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,12) = 4.816675413e-08
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,13) = -1.108823982e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (10,14) = 6.242878213e-12
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (11,11) = 0.1091287979
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (11,12) = -0.003813241863
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (11,13) = -3.221371287e-10
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (11,14) = -1.411682083e-11
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (12,12) = 0.001471121341
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (12,13) = -1.821401846e-08
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (12,14) = -1.035323483e-07
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (13,13) = 0.01181900399
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (13,14) = 0.005537243251
+INFO in LauIsobarDynamics::initialise : Initial fit fraction for amplitude (14,14) = 0.001553495452
+INFO in LauIsobarDynamics::initialise : Initial efficiency = 0.003009695168
+INFO in LauIsobarDynamics::initialise : Initial DPRate = 15.67351375
+INFO in LauAbsFitModel::clearFitParVectors : Clearing fit variable vectors
+INFO in LauCPFitModel::setSignalDPParameters : Setting the initial fit parameters for the signal DP model.
+INFO in LauCPFitModel::setFitNEvents : Initialising number of events for signal and background components...
+INFO in LauAbsFitModel::clearExtraVarVectors : Clearing extra ntuple variable vectors
+INFO in LauAbsFitModel::fit : First experiment = 0
+INFO in LauAbsFitModel::fit : Number of experiments = 1
+INFO in LauAbsFitModel::setupResultsOutputs : Creating fit ntuple.
