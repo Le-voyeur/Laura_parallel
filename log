@@ -1,0 +1,78 @@
+Compiling src/LauCPFitModel.cc
+In file included from inc/LauAbsFitModel.hh:74,
+                 from inc/LauCPFitModel.hh:47,
+                 from src/LauCPFitModel.cc:56:
+inc/LauFitObject.hh:46:7: error: ‘LauFitObject’ is not a template
+   46 | class LauFitObject : public TObject {
+      |       ^~~~~~~~~~~~
+In file included from inc/LauMinuit.hh:44,
+                 from inc/LauFitObject.hh:41,
+                 from inc/LauAbsFitModel.hh:74,
+                 from inc/LauCPFitModel.hh:47,
+                 from src/LauCPFitModel.cc:56:
+inc/LauAbsFitter.hh:44:7: note: previous declaration here
+   44 | class LauFitObject;
+      |       ^~~~~~~~~~~~
+In file included from inc/LauCPFitModel.hh:47,
+                 from src/LauCPFitModel.cc:56:
+inc/LauAbsFitModel.hh:87:31: error: invalid use of incomplete type ‘class LauFitObject’
+   87 | class LauAbsFitModel : public LauFitObject {
+      |                               ^~~~~~~~~~~~
+In file included from inc/LauMinuit.hh:44,
+                 from inc/LauFitObject.hh:41,
+                 from inc/LauAbsFitModel.hh:74,
+                 from inc/LauCPFitModel.hh:47,
+                 from src/LauCPFitModel.cc:56:
+inc/LauAbsFitter.hh:44:7: note: forward declaration of ‘class LauFitObject’
+   44 | class LauFitObject;
+      |       ^~~~~~~~~~~~
+src/LauCPFitModel.cc: In member function ‘void LauCPFitModel::setFitNEvents()’:
+src/LauCPFitModel.cc:738:8: error: ‘class LauCPFitModel’ has no member named ‘eventsPerExpt’
+  738 |  this->eventsPerExpt(TMath::FloorNint(nTotEvts));
+      |        ^~~~~~~~~~~~~
+src/LauCPFitModel.cc: In member function ‘virtual void LauCPFitModel::finaliseFitResults(const TString&)’:
+src/LauCPFitModel.cc:1213:32: error: ‘class LauCPFitModel’ has no member named ‘iExpt’; did you mean ‘fitExpt’?
+ 1213 |  ntuple->storeCorrMatrix(this->iExpt(), this->fitStatus(), this->covarianceMatrix());
+      |                                ^~~~~
+      |                                fitExpt
+src/LauCPFitModel.cc:1213:47: error: ‘class LauCPFitModel’ has no member named ‘fitStatus’
+ 1213 |  ntuple->storeCorrMatrix(this->iExpt(), this->fitStatus(), this->covarianceMatrix());
+      |                                               ^~~~~~~~~
+src/LauCPFitModel.cc:1213:66: error: ‘class LauCPFitModel’ has no member named ‘covarianceMatrix’
+ 1213 |  ntuple->storeCorrMatrix(this->iExpt(), this->fitStatus(), this->covarianceMatrix());
+      |                                                                  ^~~~~~~~~~~~~~~~
+src/LauCPFitModel.cc:1222:50: error: ‘class LauCPFitModel’ has no member named ‘iExpt’; did you mean ‘fitExpt’?
+ 1222 |   sigOutFileName += "_"; sigOutFileName += this->iExpt(); sigOutFileName += "Expt.tex";
+      |                                                  ^~~~~
+      |                                                  fitExpt
+src/LauCPFitModel.cc: In member function ‘void LauCPFitModel::updateSigEvents()’:
+src/LauCPFitModel.cc:2022:28: error: ‘class LauCPFitModel’ has no member named ‘eventsPerExpt’
+ 2022 |  Double_t nTotEvts = this->eventsPerExpt();
+      |                            ^~~~~~~~~~~~~
+src/LauCPFitModel.cc: In member function ‘virtual Double_t LauCPFitModel::getEvtSCFDPLikelihood(UInt_t)’:
+src/LauCPFitModel.cc:2365:34: error: ‘class LauCPFitModel’ has no member named ‘eventsPerExpt’
+ 2365 |  const Int_t nDataEvents = this->eventsPerExpt();
+      |                                  ^~~~~~~~~~~~~
+src/LauCPFitModel.cc: In member function ‘virtual void LauCPFitModel::storePerEvtLlhds()’:
+src/LauCPFitModel.cc:2776:27: error: ‘class LauCPFitModel’ has no member named ‘eventsPerExpt’
+ 2776 |  UInt_t evtsPerExpt(this->eventsPerExpt());
+      |                           ^~~~~~~~~~~~~
+src/LauCPFitModel.cc:2785:56: error: ‘class LauCPFitModel’ has no member named ‘iExpt’; did you mean ‘fitExpt’?
+ 2785 |   this->setSPlotNtupleIntegerBranchValue("iExpt",this->iExpt());
+      |                                                        ^~~~~
+      |                                                        fitExpt
+src/LauCPFitModel.cc: In member function ‘virtual void LauCPFitModel::weightEvents(const TString&, const TString&)’:
+src/LauCPFitModel.cc:3045:25: error: ‘class LauCPFitModel’ has no member named ‘iExpt’; did you mean ‘fitExpt’?
+ 3045 |   UInt_t iExpmt = this->iExpt();
+      |                         ^~~~~
+      |                         fitExpt
+src/LauCPFitModel.cc:3046:25: error: ‘class LauCPFitModel’ has no member named ‘nExpt’; did you mean ‘genExpt’?
+ 3046 |   UInt_t nExpmt = this->nExpt();
+      |                         ^~~~~
+      |                         genExpt
+src/LauCPFitModel.cc:3047:29: error: ‘class LauCPFitModel’ has no member named ‘firstExpt’; did you mean ‘fitExpt’?
+ 3047 |   UInt_t firstExpmt = this->firstExpt();
+      |                             ^~~~~~~~~
+      |                             fitExpt
+Makefile:138: recipe for target 'tmp/objects/LauCPFitModel.o' failed
+make: *** [tmp/objects/LauCPFitModel.o] Error 1

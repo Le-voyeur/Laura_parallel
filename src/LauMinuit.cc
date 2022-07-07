@@ -145,7 +145,7 @@ void LauMinuit::initialise_imp( LauFitObject* fitObj, const std::vector<LauParam
 
 LauFitObject* LauMinuit::getFitObject_imp()
 {
-  //std::cout<<"LauFitObject* LauMinuit::getFitObject_imp() "<<std::endl;
+  std::cout<<"LauFitObject* LauMinuit::getFitObject_imp() "<<std::endl;
 	return (minuit_!=0) ? dynamic_cast<LauFitObject*>( minuit_->GetObjectFit() ) : 0;
 }
 
